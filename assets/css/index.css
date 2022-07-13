@@ -162,7 +162,29 @@ border-radius: 8%;
     width: 100%;
     height: 40%;
     
-   
+}
+
+.social_list1{
+    display: inline-flex;
+    list-style: none;
     
+}
+
+.social_list1 li{
+    padding-left: 5px;
+    font-size: larger;
     
+}
+footer a {
+color: wheat;
+text-decoration-line:none;
+  }
+
+.fa-brands{
+    color:wheat ;
+}
+footer .tel{
+    color: wheat;
+    list-style: none;
+    margin-left: 4px;
 }

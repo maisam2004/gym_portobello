@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oxygen:wght@300&family=Titillium+Web:wght@200&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+}
+
+article{
+    background-color: antiquewhite;
+    overflow-x: hidden;
+}
+
+/* nav bar --------------------------- */
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: bold;
+    color: #be4901;
+    text-decoration:
+    none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+
+
+.bg-light{
+    --bs-bg-opacity: .8;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    background-color: #465f856b ;
+
+}
+
+
+
+
+.navbar-toggler{
+    background-color:#9bb5ddab;
+}
+.navbar-toggler:hover{
+    background-color: #acd8ae;
+}
+
+
+
+
+
+
+
+
+/* background_img_banner class for banner*/
+.background_img_banner{
+    height: 100vh;
+}
+
+.image_banner {
+    position: fixed;
+    z-index: -1; 
+    inset: 0px;
+    overflow: hidden;
+    background-size: cover;
+    /* background-color: transparent; */
+    /* background-repeat: no-repeat; */
+    /* background-position: 30% 50%; */
+    /* background-image: url(../images/main_images/Admirals-Cove_fitness-center-2000x1200.jpg); */
+}
+#myVideo{height: 100%;}
+
+/* overlay */
+
+.opaque-overlay {
+    position: absolute;
+    top:
+    inherit;
+    left: 0;
+    /* right: 20; */
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.brand_image_over{
+    /* justify-items: center; */
+    /* background-image: url(../images/main_images/por_gym_edit2.png); */
+    /* background-image: url(../images/FONTS22.png); */
+    /* background-repeat: no-repeat; */
+    position: relative;
+    /* height: 40%; */
+    top: 42%;
+    /* margin: 0 auto; */
+    /* right: 50%; */
+    text-align: center;
+}
+
+.clip-polygon {
+    clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  }
+
+
+.massage_heading{
+   color: rgb(218, 216, 214);
+}
+
+.animate_image{
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+/* join club */
+.btn_main{
+    background-color: transparent;
+    border-color:#f8f9fa;
+
+    color: rgb(180, 178, 24);
+  
+padding: 16px 22px;
+  
+text-align: center;
+  
+font-size: 24px;
+  
+font-weight:
+  
+bold;
+  
+margin-top: 3vh;
+  
+transition: 0.3s;
+  
+border-radius: 8%;
+
+}
+
+
+.btn_main:hover {
+  background-color: #094b0c;
+  color: white;
+}

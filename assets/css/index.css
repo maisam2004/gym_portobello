@@ -146,6 +146,15 @@ body{
     }
 
 
+
+
+/* article tag color */
+
+article{
+    background-color: antiquewhite;
+}
+
+
 /* describe section*/
 
 .describe .row {

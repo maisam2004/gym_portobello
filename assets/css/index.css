@@ -217,6 +217,7 @@ article{
     -webkit-user-select: none;
     touch-action: manipulation;
     text-transform: uppercase;
+    border-radius: 0;
     /* border-left: #00e6f6 solid 4px; */
 }
 .last_btn_member:hover {

@@ -120,7 +120,6 @@ body{
 .btn_main{
     background-color: transparent;
     border-color:#f8f9fa;
-
     color: rgb(180, 178, 24);
   
 padding: 16px 22px;
@@ -128,15 +127,11 @@ padding: 16px 22px;
 text-align: center;
   
 font-size: 24px;
-  
-font-weight:
-  
-bold;
+font-weight:bold;
   
 margin-top: 3vh;
   
 transition: 0.3s;
-  
 border-radius: 8%;
 
 }

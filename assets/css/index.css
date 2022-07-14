@@ -5,10 +5,6 @@ body{
 }
 
 
-article{
-    background-color: antiquewhite;
-    overflow-x: hidden;
-}
 
 /* nav bar --------------------------- */
 .nav-link {
@@ -150,6 +146,32 @@ border-radius: 8%;
   background-color: #094b0c;
   color: white;
 }
+
+/* main article */
+
+article{
+    background-color: antiquewhite;
+    overflow-x: hidden;
+}
+
+/*describe section */
+.describe .row {
+    background-color:
+    white;
+    color:
+    rgb(71, 7, 61);
+}
+.describe h1{
+    margin: 5%;
+    font-weight: 600;
+}
+.describe p{
+    margin: 4%;
+    font-size:large;
+}
+
+
+
 
 
 

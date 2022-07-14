@@ -198,11 +198,11 @@ article{
 
 
 .last_btn_member{
-    margint-left: 5%;
+    
     /* margin-right: 5%; */
     width: 150px;
     height: 76px;
-    /* line-height: 78px; */
+    line-height: 60px; 
     font-size: 16px;
     font-weight: bold;
     /* font-family: 'Bebas Neue', sans-serif; */

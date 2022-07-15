@@ -173,6 +173,33 @@ article{
 }
 
 
+/* some skills and facility */
+.skills{
+   
+    align-content: center;
+       
+    background-color: #8b1358;
+       
+    color: white;
+    }
+    
+    .skills_heading{
+        font-weight: 600;
+        padding-bottom: 3%;
+        padding-top: 4%;
+        padding-left: 2%;
+    }
+    
+    .offer_memeber{
+        list-style: none;
+        display:inline-flex;
+    
+    }
+    .offer_memeber li{
+        
+        text-align-last: center;
+        padding: 2%;
+    }
 
 /* enquery and join club row */
 

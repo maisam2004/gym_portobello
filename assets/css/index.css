@@ -171,6 +171,65 @@ article{
     margin: 4%;
     font-size:large;
 }
+/* ------------ */
+.photos{
+    
+    /* color: white; */
+        
+    padding-bottom: 3.5%;
+        
+    background-color: #32c7d3;
+        
+    padding-top: 3%;
+        }
+        
+        #carouselExampleIndicators{
+            
+            max-width: 600;
+            
+        }
+    
+    .photos p{
+        color: #523018;
+        font-weight: bolder;
+        font-size: large;
+        padding-left: 1%;
+    }
+        
+        @media only screen and (max-width: 480px) {
+            .photos{
+            
+                padding-bottom: 0%;
+                }
+        
+            .slide_photos_1{
+                margin-left: -10%;
+                margin-right: -10%;
+                margin-top: -5%;
+            }
+            h2{
+                padding: 5%;
+            }
+            }
+        
+        
+        .carousel-inner{
+           
+        }
+        
+        .carousel-item{
+        }
+        
+        .slide_notes_h3{
+            padding: 5%;
+        }
+        
+        /* some notes */
+        .some_notes_h3{
+            padding: 5%;
+        }
+        
+
 
 
 /* some skills and facility */

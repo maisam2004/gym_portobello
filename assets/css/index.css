@@ -177,6 +177,73 @@ article{
     font-size:large;
 }
 /* ------------ */
+
+
+/* facility fluid and towels icones */
+.facility-fluid{
+    background-color: rgb(214, 192, 152);
+}
+
+
+.towels{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .icons_gym{
+    margin: 0 auto;
+  }
+
+  
+  figure{
+    /* line-height: 100px; */
+    /* margin: revert; */
+  }  
+  
+
+
+  
+  
+   figure img{
+    height: 90px;
+    width: 90px;
+    float: inline-start;
+  }
+  figure .fa-wifi{
+    height: 90px;
+    width: 90px;
+    font-size:82px;
+  }
+
+  figcaption{
+    width: max-content;
+    font-weight: bold;
+    /* font-style: italic; */
+    /* font-size: larger; */
+    /* float: right; */
+    color: #4d316c;
+  }
+  figcaption .wifi{
+    padding-left: 10%;
+  }
+
+  
+  @media only screen and (max-width: 480px) {
+    figure{
+        /* line-height: 20px; */
+        margin: 0 0 1rem;
+        margin: revert;
+      }
+      figcaption{
+
+      }
+    }
+
+
+
+
+
+/*----photos first slide ___*/
 .photos{
     
     /* color: white; */

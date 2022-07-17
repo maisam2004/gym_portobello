@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oxygen:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+/* background_img_banner class for banner*/
+.background_img_banner{
+  height: 60vh;
+}
+
+.image_banner {
+  position: fixed;
+  z-index: -1; 
+  inset: 0px;
+  overflow: hidden;
+  background-size: cover;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+  background-image: url(../images/main_images/Admirals-Cove_fitness-center-2000x1200.jpg);
+}
+
+@media only screen and (max-width: 386px) {
+  .image_banner{
+    background-image: url(../images/main_images/gym_cover_mobile_background.jpg);
+  }
+  }
+
+
+
+/* nav bar --------------------------- */
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: bold;
+  color: #be4901;
+  text-decoration:
+  none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+
+
+.bg-light{
+  --bs-bg-opacity: .8;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+  background-color: #465f856b ;
+
+}
+
+
+
+
+.navbar-toggler{
+  background-color:#9bb5ddab;
+}
+.navbar-toggler:hover{
+  background-color: #acd8ae;
+}
+
+
+
+
+
+/* overlay */
+
+.opaque-overlay {
+  position: absolute;
+  top:
+  inherit;
+  left: 0;
+  right: 20;
+  height: 60%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.brand_image_over{
+  /* justify-items: center; */
+  /* background-image: url(../images/main_images/por_gym_edit2.png); */
+  /* background-image: url(../images/FONTS22.png); */
+  /* background-repeat: no-repeat; */
+  position: relative;
+  /* height: 40%; */
+  top: 42%;
+  /* margin: 0 auto; */
+  /* right: 50%; */
+  text-align: center;
+}
+
+.clip-polygon {
+  /*clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);*/
+}
+
+
+.massage_heading{
+ color: rgb(218, 216, 214);
+}
+
+.animate_image{
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* )))))))))))))))))))))) */
+/* membership first; */
+.bg_half_row{
+  width: 60%;
+  background-color: #34476466;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 560px) {
+  .bg_half_row{
+    width: 100%;
+  }
+  }
+
+
+
+.facilities{
+padding-top: 10%;
+padding-bottom: 10%;
+background-color: #5765724f;
+background-image: url(../images/main_images/happy_sport.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+
+
+
+header .some_info{
+ padding: 6%;
+  
+
+}
+.some_info h3{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  padding-bottom: 5%;
+  color: rgb(243 240 240);
+}
+.some_info ul{
+  padding-left: 10%;
+}
+.some_info li{
+  font-family: 'Lato', sans-serif;
+  color: #f8f9fa;
+  padding-left: 0%;
+  margin-top: 3%;
+  font-weight: 1000;
+  /*font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;*/
+  font-size: x-large;
+  /* background-color: #34770ff5; */
+}
+.some_info .fa-solid ,.some_info .fa-brands {
+  padding-right: 2%;
+
+}
+
+
+/*happy picture */
+
+
+/*  memebrea heading and tables */
+
+
+
+
+
+.member_table_head {
+  text-align: center;
+}
+.member_table_head h2{
+  color:#666663;
+}
+
+.mem-planes-tables .container{
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+
+
+
+/*  blink */
+
+.blink {
+  animation: blinker 0.9s linear infinite;
+  font-size: 20px;
+  }
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.blink-one {
+  animation: blinker-one 3s linear infinite;
+  color: #702f10;
+  font-weight: bolder;
+  /* line-height: 10%; */
+  background-color: #b6c9be;
+}
+@keyframes blinker-one {
+  0% {
+    opacity: 0;
+  }
+}
+
+
+.list-group-item {
+ 
+}
+li span{
+  color:#e8e6ec
+}
+
+#card_middle_style {
+  border: 10px solid rgb(133, 18, 18);
+  border-top: #4dbe3b;
+  border-bottom: #4dbe3b;
+  padding: 10px;
+  border-top-left-radius: 42px;
+  border-top-right-radius: 42px;
+  border-bottom-right-radius: 42px;
+  border-bottom-left-radius: 42px;
+
+}
+
+#card_sides_style{
+  border: 7px solid rgb(0, 153, 255);
+  border-top: #535304;
+  border-right: #666663;
+  padding: 10px;
+  border-top-left-radius: 50px 40px;
+  border-bottom-right-radius: 50px 40px;
+}
+
+.card_sides_style{
+  border: 7px solid rgb(0, 153, 255);
+  border-top: #535304;
+  border-right: #666663;
+  padding: 10px;
+  border-top-left-radius: 50px 40px;
+  border-bottom-right-radius: 50px 40px;
+}
+
+section .list-group-item:nth-child(4) {
+  color: green;   
+  background-color: #5896b7;
+  border-bottom-right-radius:42px;
+  border-bottom-left-radius:0px;
+}
+section .list-group-item:nth-child(1) {
+  color: rgb(235, 245, 235);   
+  background-color: #121b1ac4;
+ /* border-top-right-radius: 50px 40px;
+  border-top-left-radius: 50px 40px; */
+  border-top-left-radius: 42px;
+ 
+}
+
+section .list-group-item:nth-child(2) ,section .list-group-item:nth-child(3){
+  color: rgb(128, 0, 96);   
+  background-color: #5896b7;
+  border-left: 50px;
+  
+}
+
+
+
+/* footer */
+.main_footer{
+  background-color:#0b2265;
+  height: auto;
+  width: 100%;
+  height: 40%;
+  margin-top: -17;
+}
+.col{
+  margin-top: 4%;
+}
+/*
+.social_list{
+  list-style: none;
+  color: aliceblue;
+  display: inline-flex;
+  margin-right: -5%;
+ 
+}
+.social_list li{
+  
+  padding-right: 8%;
+  margin-right: 5%;
+  font-size: large;
+}
+*/
+.social_list1{
+  
+display: inline-flex;
+  
+list-style: none;
+  
+
+  
+text-decoration: none;
+  
+color: white;
+}
+.social_list1 li{
+  padding-left: 5px;
+  font-size: large;
+  text-decoration-style: none;
+  color: #f8f9fa;
+}
+
+.fa-brands{
+  color:wheat ;
+}
+footer a {
+  color: wheat;
+text-decoration-line:none;
+}
+
+
+
+.footer_brand_small{
+  /* float: right; */
+  margin-top: 2%;
+}
+.tel{
+  color: wheat;
+  list-style: none;
+  /* float: left; */
+  
+  margin-left: 4px;
+}
+

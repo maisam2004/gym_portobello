@@ -231,21 +231,19 @@ header .some_info{
 li span{
   color:#e8e6ec
 }
-
 #card_middle_style {
-  border: 10px solid rgb(133, 18, 18);
+  border: 3px solid rgb(133, 18, 18);
   border-top: #4dbe3b;
-  border-bottom: #4dbe3b;
+  border-right: #4dbe3b;
   padding: 10px;
   border-top-left-radius: 42px;
-  border-top-right-radius: 42px;
+  /* border-top-right-radius: 42px; */
   border-bottom-right-radius: 42px;
-  border-bottom-left-radius: 42px;
-
+  /* border-bottom-left-radius: 42px; */
 }
 
 #card_sides_style{
-  border: 7px solid rgb(0, 153, 255);
+  border: 3px solid rgb(0, 153, 255);
   border-top: #535304;
   border-right: #666663;
   padding: 10px;
@@ -254,7 +252,7 @@ li span{
 }
 
 .card_sides_style{
-  border: 7px solid rgb(0, 153, 255);
+  border: 3px solid rgb(0, 153, 255);
   border-top: #535304;
   border-right: #666663;
   padding: 10px;
@@ -282,6 +280,11 @@ section .list-group-item:nth-child(2) ,section .list-group-item:nth-child(3){
   background-color: #5896b7;
   border-left: 50px;
   
+}
+
+.card-group>.card:not(:last-child) {
+  border-top-right-radius: 0;
+   border-bottom-right-radius: 42px;
 }
 
 

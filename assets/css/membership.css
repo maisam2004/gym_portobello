@@ -293,6 +293,14 @@ section .list-group-item:nth-child(2) ,section .list-group-item:nth-child(3){
    border-bottom-right-radius: 42px;
 }
 
+.card-group {
+  /*display: inline-flex; */
+}
+
+
+
+
+
 /*form become member */
 /* input seciton ------------------------------------------------- */
 h4 {

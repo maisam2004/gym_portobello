@@ -296,7 +296,9 @@ section .list-group-item:nth-child(2) ,section .list-group-item:nth-child(3){
   color: rgb(128, 0, 96);   
   background-color: #ed973e;
   border-left: 50px;
-  
+  font-size: large;
+  font-weight: 600;
+  font-family:'oxygen';
 }
 
 .card-group>.card:not(:last-child) {

@@ -446,6 +446,8 @@ select option {
 }
 .input-group-icon {
   position: relative;
+  font-size: large;
+  
 }
 .input-group-icon input {
   padding-left: 4.4em;

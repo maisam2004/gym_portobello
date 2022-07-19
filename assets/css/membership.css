@@ -181,6 +181,11 @@ header .some_info{
   font-size: x-large;
   /* background-color: #34770ff5; */
 }
+
+.some_info li::marker {
+	color:orange;
+}
+
 .some_info .fa-solid ,.some_info .fa-brands {
   padding-right: 2%;
 

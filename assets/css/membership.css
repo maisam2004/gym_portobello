@@ -236,9 +236,16 @@ header .some_info{
 }
 
 
-.list-group-item {
+.list-group-item a{
+ color:orange;
+ font-size: 600;
  
 }
+.list-group-item a:hover{
+  color:orange;
+  
+  
+ }
 li span{
   color:#e8e6ec
 }
@@ -288,7 +295,7 @@ section .list-group-item:nth-child(1) {
 
 section .list-group-item:nth-child(2) ,section .list-group-item:nth-child(3){
   color: rgb(128, 0, 96);   
-  background-color: #5896b7;
+  background-color: #ed973e;
   border-left: 50px;
   
 }

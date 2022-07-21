@@ -4,6 +4,10 @@
 html,body{
   overflow-x: hidden;
 }
+body{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+}
 
 
 /* background_img_banner class for banner

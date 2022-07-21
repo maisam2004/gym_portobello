@@ -9,6 +9,11 @@ body{
     font-family: 'Oxygen', sans-serif;
 }
 
+body.modal-open {
+    padding-right: 0 !important; /*dont all modall effect padding of page */
+  }
+  
+
 
 /* nav bar --------------------------- */
 .nav-link {

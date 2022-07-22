@@ -26,7 +26,62 @@ body{
     text-decoration:none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
+/*  add new styles for banner*/
+  .background_img_banner{
+    height: 28vh;
+  }
+  /*
+.image_banner ,.background_img_banner{
+    position: fixed;
+    z-index: -1; 
+    inset: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+    background-image: url(../images/Admirals-Cove_fitness-center-2000x12002.jpg);
+
+}
+*/
+
+.background_img_banner{
+ width: 100%;
   
+  overflow: hidden;
+  
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+  background-image: url(../images/Admirals-Cove_fitness-center-2000x12002.jpg);
+}
+
+
+.opaque-overlay {
+  position: absolute;
+  top:
+  inherit;
+  left: 0;
+  /* padding-bottom: 10%; */
+  height: 28%;
+  width: 100%;
+  background-color: rgba(3, 3, 3, 0.664);
+}
+
+.brand_image_over{
+  /* justify-items: center; */
+  /* background-image: url(../images/main_images/por_gym_edit2.png); */
+  /* background-image: url(../images/FONTS22.png); */
+  /* background-repeat: no-repeat; */
+  position: relative;
+  /* height: 40%; */
+  top: 3.8%;
+  /* margin: 0 auto; */
+  /* right: 50%; */
+  text-align: center;
+}
+/*  add new styles for banner*/
+
   
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
       /* --bs-gutter-x: 1.5rem; */

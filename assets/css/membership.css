@@ -51,8 +51,7 @@ body.modal-open {
   font-size: var(--bs-nav-link-font-size);
   font-weight: bold;
   color: #110b08;
-  text-decoration:
-  none;
+  text-decoration:none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 

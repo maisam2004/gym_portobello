@@ -1,9 +1,9 @@
 
     body{
         
-        background-color:rgb(27, 98, 146);
+        /*background-color:rgb(27, 98, 146);*/
         
-        background-image: url("assets/images/login_bg.html");
+        background-image: url("/assets/images/login_bg2.jpg");
 
         background-size: cover;
   

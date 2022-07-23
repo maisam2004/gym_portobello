@@ -1,10 +1,19 @@
 
-    body{
+    html,body{
+      height: 100%;
+      margin: 0;
+    }
+    .back_body{
         
-        z-index: -1;
+        
         background-image: url("/assets/images/login_bg2.jpg");
-        background-position-y: bottom;
-
+        /* Full height */
+        height: 100%;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         background-size: cover;
   
             /* Specify the background image */      
@@ -15,6 +24,7 @@
       
     .whole_contents_col{
         background-color:coral; /*background for whole form and icon at top */
+
     }
     .form_icon{
         color: rgba(238, 239, 232, 0.801); 
@@ -44,6 +54,11 @@
 
   form small{
     color:white;
+    
+  }
+  small a{
+    text-decoration: none;
+    color: rgb(197, 216, 24);
   }
   
   @media only screen and (max-width: 480px) {

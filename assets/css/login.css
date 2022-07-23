@@ -9,6 +9,10 @@
   
             /* Specify the background image */      
     }
+    .row{
+        height: 50%;
+      }
+      
     .whole_contents_col{
         background-color:coral; /*background for whole form and icon at top */
     }

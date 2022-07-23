@@ -9,3 +9,15 @@
   
             /* Specify the background image */      
     }
+    .whole_contents_col{
+        background-color:coral; /*background for whole form and icon at top */
+    }
+    .form_icon{
+        color: rgba(238, 239, 232, 0.801); 
+        font-size: 100px;
+        text-align: center;
+        text-shadow: 0 0 20px rgba(0,0,0,0.2);
+        /* width: 50%; */
+        padding: 70px 0;
+        vertical-align: top;
+  }

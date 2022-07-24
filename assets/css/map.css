@@ -122,6 +122,7 @@ body{
   }
   .card-text{
     font-family: "Oxygen";
+    font-weight: 800;
   }
       ul{
           list-style: none;

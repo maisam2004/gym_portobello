@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oxygen:wght@300&family=Titillium+Web:wght@200&display=swap');
+
 body{
     background-color: #eee;;
   }
@@ -117,6 +119,9 @@ body{
      /* width:fit-content; */
       margin: 0 auto;
 
+  }
+  .card-text{
+    font-family: "Oxygen";
   }
       ul{
           list-style: none;

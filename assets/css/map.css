@@ -9,15 +9,6 @@ body{
   .navbar-brand{
     
   }
-  
-  .brand_image_nav{
-      background: url("assets/images/p_s_gym2.jpeg") no-repeat;
-      height: 9vh;
-      width: 9.5vh;
-      border-radius: 5%;
-      margin-bottom: -2px;
-    
-  }
 
   .nav-link {
     display: block;

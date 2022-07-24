@@ -3,6 +3,10 @@
 body{
     background-color: #eee;;
   }
+  .navbar-section{
+    font-family: "Oxygen";
+  }
+
   .navbar-toggler{
       background-color: rgb(12, 50, 134);
   }

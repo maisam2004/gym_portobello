@@ -67,11 +67,15 @@
       background-color:rgba(245, 245, 220, 0.001);
       border-radius: 0%;
     }
+    .form_icon{
+      color: white;
+    }
     .form_icon .title{
       text-shadow: 0 0 20px rgb(14 2 2 / 96%);
       color: #e9e4dd;
       font-weight: 900;
       font-size: x-large;
     }
+
   
   }

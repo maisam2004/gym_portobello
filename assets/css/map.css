@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oxygen:wght@300&family=Titillium+Web:wght@200&display=swap');
 
+html,body{
+  overflow-x: hidden;
+}
 body{
-    background-color: #eee;;
+    background-color: #eee;
+    padding-right: 0px !important;
   }
   .navbar-section{
     font-family: "Oxygen";
@@ -41,26 +45,28 @@ body{
 
 }
 */
-
+header{
+  
+}
 .background_img_banner{
- width: 100%;
+  position: absolute;
+  top:inherit;
+  left: 0;
   
-  overflow: hidden;
-  
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: 30% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-image: url(../images/Admirals-Cove_fitness-center-2000x12002.jpg);
 }
 
 
 .opaque-overlay {
   position: absolute;
-  top:
-  inherit;
+  top:initial;
   left: 0;
-  /* padding-bottom: 10%; */
-  height: 28%;
+  padding-bottom: 10%; 
+  height: 100%;
   width: 100%;
   background-color: rgba(3, 3, 3, 0.664);
 }
@@ -106,7 +112,7 @@ body{
   }
   
   .map_address{
-    margin-top: 5%;
+    margin-top: 13%;
     margin-bottom: 5%;
   }
   

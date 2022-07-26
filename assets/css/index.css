@@ -20,6 +20,11 @@ body .modal-open {
 
 
 /* nav bar --------------------------- */
+.navbar-brand{
+    font-family: 'EB Garamond', serif;
+
+  }
+
 .nav-link {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -171,10 +176,7 @@ body .modal-open {
   color: white;
 }
 
-                
-.stickyjoin {/*------------------sticky part */
-  
-    }
+
 
 
 

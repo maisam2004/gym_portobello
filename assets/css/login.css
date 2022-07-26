@@ -19,6 +19,13 @@
   
             /* Specify the background image */      
     }
+
+    .navbar-brand{
+      font-family: 'EB Garamond', serif;
+  
+    }
+
+
     .row{
         height: 50%;
       }

@@ -2,20 +2,23 @@
 
 html,body{
   overflow-x: hidden;
+
 }
 body{
     background-color: #eee;
     padding-right: 0px !important;
+    font-family: "Oxygen";
+
   }
   .navbar-section{
-    font-family: "Oxygen";
   }
 
   .navbar-toggler{
       background-color: rgb(12, 50, 134);
   }
   .navbar-brand{
-    
+    font-family: 'EB Garamond', serif;
+
   }
 
 

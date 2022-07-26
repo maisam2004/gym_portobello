@@ -7,7 +7,7 @@ html,body{
 body{
   font-family: 'Lato', sans-serif;
   font-family: 'Oxygen', sans-serif;
-  padding-right: 0px;
+  padding-right: 0 !important; /*dont all modall effect padding of page */
 }
 
 body.modal-open {

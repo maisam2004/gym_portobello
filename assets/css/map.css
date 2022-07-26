@@ -18,6 +18,7 @@ body{
     
   }
 
+
   .nav-link {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -163,6 +164,11 @@ text-decoration-line:none;
   }
 
   @media only screen and (max-width: 540px) {
+    .navbar-nav{ /*give padding left to navbar links for better view in mobile*/
+     
+
+    }
+  
     .map_address{
       margin-top: 36%;
       margin-bottom: 3%;

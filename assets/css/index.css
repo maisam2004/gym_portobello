@@ -24,6 +24,10 @@ body .modal-open {
     font-family: 'EB Garamond', serif;
 
   }
+  .navbar-nav{
+    text-align: center;
+
+  }
 
 .nav-link {
     display: block;

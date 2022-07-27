@@ -19,11 +19,58 @@
   
             /* Specify the background image */      
     }
+/* nav bar --------------------------- */
+.navbar-brand{
+  font-family: 'EB Garamond', serif;
+  /* text-align: center; */
+  line-height: 23px;
 
-    .navbar-brand{
-      font-family: 'EB Garamond', serif;
+}
+.navbar-brand:hover{
+  color: rgb(9, 80, 13);
+
+}
+.navbar-nav{
+  text-align: center;
+
+}
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: bold;
+  color: #110b08;
+  text-decoration:none;
+  letter-spacing:1px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link:hover{
+  background-color: #0e6313;
+  color: whitesmoke;
+  border-top: rgb(24, 100, 24) solid 2px;
+  border-bottom: rgb(24, 100, 24) solid 2px;;
+}
+
+
+
+
+.bg-light{
+  --bs-bg-opacity: .8;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+  background-color: #465f856b ;
+
+}
+
+
+
+
+.navbar-toggler{
   
-    }
+}
+.navbar-toggler:hover{
+  background-color: #acd8ae;
+}
 
 
     .row{

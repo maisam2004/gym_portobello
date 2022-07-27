@@ -57,10 +57,7 @@
  
 }
 
-
-
-
-.bg-light{
+.bg-light{ /* change transparency of nav bar light color*/
   --bs-bg-opacity: .8;
   background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
   background-color: #465f856b ;

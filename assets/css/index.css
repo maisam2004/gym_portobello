@@ -53,7 +53,6 @@ body .modal-open {
 
 
 
-
 .bg-light{
     --bs-bg-opacity: .8;
     background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
@@ -279,10 +278,6 @@ article{
       }
       figcaption{
 
-      }
-      .nav-link:hover{
-        background-color: rgb(69, 70, 29); /*navbar hover reaction */
-    
       }
 
     }

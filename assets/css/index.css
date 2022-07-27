@@ -22,6 +22,8 @@ body .modal-open {
 /* nav bar --------------------------- */
 .navbar-brand{
     font-family: 'EB Garamond', serif;
+    /* text-align: center; */
+    line-height: 23px;
 
   }
   .navbar-nav{

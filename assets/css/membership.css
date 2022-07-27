@@ -45,6 +45,11 @@ body.modal-open {
 
 
 /* nav bar --------------------------- */
+.navbar-nav{
+  text-align: center;
+
+}
+
 .navbar-brand{
   font-family: 'EB Garamond', serif;
   line-height: 23px;

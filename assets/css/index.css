@@ -39,6 +39,11 @@ body .modal-open {
     none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
+.nav-link:hover{
+    background-color: #0e6313;
+    color: whitesmoke;
+    font-weight: bolder;
+}
 
 
 

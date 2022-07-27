@@ -40,14 +40,17 @@ body{
     letter-spacing:1px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
-.nav-link:hover{
-  background-color: #0e6313;
+.nav-link:hover{ 
+  background-color: #45974a;
   color: whitesmoke;
-  border-top: rgb(24, 100, 24) solid 2px;
-  border-bottom: rgb(24, 100, 24) solid 2px;;
+ 
 }
+.bg-light{
+  --bs-bg-opacity: .8;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+  background-color: #465f856b ;
 
-
+}
 
 
 

@@ -4,6 +4,11 @@
       height: 100%;
       margin: 0;
     }
+    body{
+      font-family: 'Lato', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    padding-right: 0px !important;/* to stop modall effect padding of page */
+    }
     .back_body{
         
         

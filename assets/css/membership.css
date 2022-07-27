@@ -47,6 +47,11 @@ body.modal-open {
 /* nav bar --------------------------- */
 .navbar-brand{
   font-family: 'EB Garamond', serif;
+  line-height: 23px;
+
+}
+.navbar-brand:hover{
+  color: rgb(9, 80, 13);
 
 }
 
@@ -56,11 +61,17 @@ body.modal-open {
   font-size: var(--bs-nav-link-font-size);
   font-weight: bold;
   color: #110b08;
+  letter-spacing:1px;
   text-decoration:none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
-
+.nav-link:hover{
+  background-color: #0e6313;
+  color: whitesmoke;
+  border-top: rgb(24, 100, 24) solid 2px;
+  border-bottom: rgb(24, 100, 24) solid 2px;;
+}
 
 
 .bg-light{

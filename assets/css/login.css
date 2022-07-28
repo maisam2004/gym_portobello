@@ -12,7 +12,7 @@
     .back_body{
         
         
-        background-image: url("/assets/images/login_bg2.jpg");
+        background-image: url("/assets/images/login_bg.jpg");
         /* Full height */
         height: 100%;
       
@@ -129,6 +129,12 @@
       color: #e9e4dd;
       font-weight: 900;
       font-size: x-large;
+    }
+    .back_body{
+        
+        
+      background-image: url("/assets/images/login_bg3.jpg");
+      /* Full height */
     }
 
   

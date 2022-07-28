@@ -78,16 +78,13 @@ body .modal-open {
     height: 100vh;
 }
 
-.image_banner {
+.video_bg {
     position: fixed;
     z-index: -1;
     inset: 0px;
     overflow: hidden;
     background-size: cover;
-    /* background-color: transparent; */
-    /* background-repeat: no-repeat; */
-    /* background-position: 30% 50%; */
-    /* background-image: url(../images/main_images/Admirals-Cove_fitness-center-2000x1200.jpg); */
+    
 }
 #myVideo{height: 100%;}
 

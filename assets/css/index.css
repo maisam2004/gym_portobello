@@ -50,7 +50,10 @@ body .modal-open {
     color: whitesmoke;
    
 }
-
+a.nav-link.d-none.d-lg-block:hover{
+    background-color: rgba(245, 245, 245, 0.144);
+    color:#45974a;
+}
 
 
 .bg-light{
@@ -273,9 +276,7 @@ article{
         margin: 0 0 1rem;
         margin: revert;
       }
-      figcaption{
-
-      }
+     
 
     }
 

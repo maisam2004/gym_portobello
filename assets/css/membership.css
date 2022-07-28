@@ -59,6 +59,10 @@ body.modal-open {
   color: rgb(33, 180, 40);
 
 }
+a.nav-link.d-none.d-lg-block:hover{
+  background-color: rgba(245, 245, 245, 0.144);
+  color:#45974a;
+}
 
 .nav-link {
   display: block;

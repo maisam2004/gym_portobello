@@ -181,14 +181,9 @@ header{
 text-decoration-line:none;
 
   }
-  .tel li{
-    color:wheat;
-  }
+  
 
-  .social_list1{
-    display: inline-flex;
-
-  }
+ 
 
   @media only screen and (max-width: 540px) {
     .navbar-nav{ /*give padding left to navbar links for better view in mobile*/
@@ -205,8 +200,20 @@ text-decoration-line:none;
     }
 
 
-/* ____________footer _____ */
+/*new footer style */
+
+  footer a {
+    color: wheat;
+text-decoration-line:none;
+
+  }
+  .links_us li{ /* for mobile look at media screen on end */
+   
+    padding-top: 5%;
+  }
+
   
+
 .main_footer{
   background-color:#0b2265;
   height: auto;
@@ -218,7 +225,17 @@ text-decoration-line:none;
   
 }
 
-.first_col_social,.footer_brand_small{
+.footer_brand_small{
+  
+padding-bottom: 2%;
+}
+
+.footer_brand{
+  font-family: 'EB Garamond', serif;
+  /* text-align: center; */
+  line-height: 23px;
+  font-size:xxx-large;
+
 }
 
 
@@ -230,16 +247,43 @@ text-decoration-line:none;
 
 .social_list1 li{
       padding-left: 5px;
-      font-size: larger;
-      
+      font-size: xx-large;
   }
+  .social_list2{
+    display: inline-flex;
+    list-style: none;
+    /* width: max-content; */
+    /* margin: 0 auto; */
+}
+
+.social_list2 li{
+    font-size: xx-large;
+    /* margin: 0 auto; */
+}
+.social_list2 .lists_li_p{
+  padding-left: 12%;
+}
 
 
-.fa-brands{
-      color:wheat ;
-  }
+
+
+
+
+footer a {
+  color: wheat;
+  text-decoration-line:none;
+    }
+
+
   .tel{
       color: wheat;
       list-style: none;
       margin-left: 4px;
   }
+
+  @media only screen and (max-width: 480px) {
+    .links_us li{
+   
+      padding-top: 10%;
+    }
+    }

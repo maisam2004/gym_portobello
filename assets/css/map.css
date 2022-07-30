@@ -208,7 +208,7 @@ text-decoration-line:none;
 
   }
   .links_us li{ /* for mobile look at media screen on end */
-   
+    font-weight: bold;
     padding-top: 5%;
   }
 
@@ -223,11 +223,6 @@ text-decoration-line:none;
  
   
   
-}
-
-.footer_brand_small{
-  
-padding-bottom: 2%;
 }
 
 .footer_brand{
@@ -284,6 +279,15 @@ footer a {
   @media only screen and (max-width: 480px) {
     .links_us li{
    
-      padding-top: 10%;
+      padding-top: 8%;
     }
+    
+      .footer_brand{
+        /* text-align: center; */
+        line-height: 23px;
+        font-size:xx-large;
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+      }
     }

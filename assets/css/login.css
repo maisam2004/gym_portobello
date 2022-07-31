@@ -36,10 +36,20 @@
   color: rgb(33, 180, 40);
 
 }
-.navbar-nav{
-  text-align: center;
 
+span.your.account img:hover{
+  background-color:#45974a;
 }
+
+  .navbar-nav{
+    text-align: center;
+
+  }
+  .navbar-expand-lg .navbar-collapse { /*from scss copied to control navlinks righ side postion*/
+    padding-right: 2%;
+  }
+  
+
 
 .nav-link {
   display: block;

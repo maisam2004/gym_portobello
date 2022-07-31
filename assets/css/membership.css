@@ -85,6 +85,9 @@ a.nav-link.d-none.d-lg-block:hover{
   color: whitesmoke;
  
 }
+span.your.account:hover{
+  background-color:#45974a;
+}
 
 
 .bg-light{

@@ -63,6 +63,10 @@ a.nav-link.d-none.d-lg-block:hover{
   background-color: rgba(245, 245, 245, 0.144);
   color:#45974a;
 }
+.navbar-expand-lg .navbar-collapse { /*from scss copied */
+  padding-right: 10%;
+}
+
 
 .nav-link {
   display: block;

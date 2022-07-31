@@ -560,12 +560,11 @@ select option {
     width: 100%;
     padding-right: 0;
   }
+  .some_info li {
+    
+    font-size: large;
+  }
 }
-
-
-
-
-
 
 
 

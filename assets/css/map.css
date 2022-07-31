@@ -22,9 +22,21 @@ body{
 
   .navbar-brand:hover{
     color: rgb(33, 180, 40);
+    
 
   }
-  
+
+/*
+
+  #navbarNavAltMarkup > div > a:nth-child(4){
+    border-bottom: #45974a dashed 3px;
+    border-top:#45974a dashed 3px;
+    border-width: 2px;
+    background-color: #52a558;
+  }
+*/
+
+
 
 span.your.account img:hover{
   background-color:#45974a;

@@ -175,13 +175,7 @@ header{
   }
     
 
-/*footer */
-  footer a {
-    color: wheat;
-text-decoration-line:none;
 
-  }
-  
 
  
 
@@ -258,17 +252,6 @@ text-decoration-line:none;
 .social_list2 .lists_li_p{
   padding-left: 12%;
 }
-
-
-
-
-
-
-footer a {
-  color: wheat;
-  text-decoration-line:none;
-    }
-
 
   .tel{
       color: wheat;

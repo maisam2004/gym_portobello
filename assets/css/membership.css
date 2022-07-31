@@ -50,6 +50,7 @@ body.modal-open {
 
 }
 
+
 .navbar-brand{
   font-family: 'EB Garamond', serif;
   line-height: 23px;
@@ -64,7 +65,7 @@ a.nav-link.d-none.d-lg-block:hover{
   color:#45974a;
 }
 .navbar-expand-lg .navbar-collapse { /*from scss copied */
-  padding-right: 10%;
+  padding-right: 2%;
 }
 
 

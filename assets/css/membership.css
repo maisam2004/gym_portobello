@@ -650,6 +650,23 @@ padding-left: 12%;
     margin-left: 4px;
 }
 
+/* back to top page style */
+.top{
+  background-color: #d3ad323b;
+  position: sticky;
+  bottom: 2%;
+  left: 96%;
+  color: red;
+  height: 40px;
+  width: max-content;
+  padding: 10px;
+  border-radius: 30%;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+
 @media only screen and (max-width: 480px) {
   .links_us li{
  

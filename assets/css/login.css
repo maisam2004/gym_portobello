@@ -37,6 +37,12 @@
 
 }
 
+span.your.account img{ /* border arond navbar login icone */
+  border: rgb(8, 8, 8) double 3px;
+  border-radius: 43%;
+}
+
+
 span.your.account img:hover{
   background-color:#45974a;
 }

@@ -581,6 +581,12 @@ select option {
     
     font-size: large;
   }
+
+  .navbar-expand-lg .navbar-collapse {
+    
+    padding-right: 20%;
+    padding-left: 20%;
+    }
 }
 
 

@@ -601,7 +601,10 @@ text-decoration-line:none;
     font-size: larger;
     font-weight: bolder;
 }
-
+.top:visited{
+    color:red
+  }
+  
 
 
 

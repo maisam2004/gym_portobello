@@ -206,6 +206,11 @@ login icon will be hidden and login link will show up.
 
 ![facilities sections](./assets/images/fac_explain.jpeg)
 
+04.At next section of homepage Allowes users to see the facility not all GYMs have ,tennis court ,special part of gym with small info about
+this facility fees and classes for tennis .
+
+
+![facilities sections](./assets/images/special_class.jpeg)
 
 
 

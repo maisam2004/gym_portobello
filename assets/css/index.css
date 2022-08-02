@@ -534,6 +534,12 @@ text-decoration-line:none;
     padding-top: 5%;
   }
 
+  .opening{
+    color: wheat;
+    font-weight: bold;
+    padding-top: 1%;
+  }
+
   
 
 .main_footer{
@@ -618,9 +624,10 @@ text-decoration-line:none;
       .footer_brand{
         /* text-align: center; */
         line-height: 23px;
-        font-size:xx-large;
-        padding-top: 2%;
-        padding-bottom: 2%;
+        font-size: xx-large;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 11%;
 
       }
     }

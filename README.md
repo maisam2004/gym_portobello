@@ -141,7 +141,6 @@ An small web project for Frontend Developmentor part of training needs.
 * Links and functions that work as expected
 * Good presentation and a visually appealing design regardless of screen size
 * An easy way to contact the bussines
-* content that the user can skim read
 * Accessibility
 
 # User Stories
@@ -165,14 +164,27 @@ An small web project for Frontend Developmentor part of training needs.
 The webpage was designed with the feeling a customer might get while training at the GYM. It is calm, bright and inviting. and video help to show it.
 
 # Structure
-The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving the user sees a familiar type of navigation bar with the GYM name logo on the left side and the navigation links one the right. The website consists of three separate pages and a modal link for contact:
+The page is structured in a well know, recognizable, user friendly, and easy to learn way. 
 
-* A homepage with a sections of Gym video and photos of facilities , reviews and special tennis class 
+01.Upon arriving the user sees a familiar type of navigation bar with the GYM name logo on the left side and the navigation links one the right. The website consists of three separate pages and a modal link for contact
+
+![Navigation bar](./assets/images/navbar.jpeg)
+![Navigation bar on mobile device](./assets/images/navbar.jpeg)
+
+
+
+
+
+
+
+* A Logo link for homepage with a sections of Gym video and photos of facilities , reviews and special tennis class 
 * A Join and become member ,price planes
+* A contact us is modal form to contact GYM
 * A map page how to find the GYM 
-* A Login page for existing member
+* A Login icon link of a page for existing member
 
 # sample photo of wab pages
+
 
 
 

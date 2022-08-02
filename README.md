@@ -165,11 +165,10 @@ The webpage was designed with the feeling a customer might get while training at
 
 # Structure
 The page is structured in a well know, recognizable, user friendly, and easy to learn way. 
-
-01.Upon arriving the user sees a familiar type of navigation bar with the GYM name logo on the left side and the navigation links on the right. The website consists of three separate pages and a modal link for contact
+Upon arriving the user sees a familiar type of navigation bar with the GYM name logo on the left side and the navigation links on the right. The website consists of three separate pages and a modal link for contact
 
 ![Navigation bar](./assets/images/navbar.jpeg)
-![Navigation bar on mobile device](./assets/images/navbar_mobile.jpeg)
+
 
 * A Logo link for homepage with a sections of Gym video and photos of facilities , reviews and special tennis class 
 * A Join page with sections for benefits, membership price planes and Form to fill to join 
@@ -191,13 +190,24 @@ login icon will be hidden and login link will show up.
 ![Navigation bar](./assets/images/navbar.jpeg)
 ![Navigation bar on mobile device](./assets/images/navbar_mobile.jpeg)
 
+
+
 02.HOmepage Landing Page includes a short video of gym and JOIN button and a text overlay that tell why to join and persuade page visitor
     to click join easily 
+    
+    
 ![landing page](./assets/images/landing_page.jpeg)
 
-03.in the Homepage next sections explain the text overlay and what facilities the gym has
+  
+  
+03.in the Homepage next sections explain the text overlay and what facilities the gym has, 
+ also it contain slid photos of parts of gym include yoga classes
+
 
 ![facilities sections](./assets/images/fac_explain.jpeg)
+
+
+
 
 
 

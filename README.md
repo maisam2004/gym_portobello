@@ -106,3 +106,90 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+# Portobello gym -website
+---
+A website of a gym/health club to show its facilities and show why to join it.
+
+## General info
+An small web project for Frontend Developmentor part of training needs.
+
+# Project Goals
+
+### User needs
+* Finding a GYM that offers a nice place to train and spend qulity time
+* See facilities .
+* Find information about the GYM.
+* Find the location of the GYM
+
+### Site Owner Main Goals
+* Increase in the number of member.
+* Promote the bussines.
+* Provide a way for new and existing customers to contact the buissnes.
+* Provide essential information about the bussines to customers.
+
+
+### User Experience
+* Target Audience
+* People looking for a place to dine at
+* People looking to order take away
+* Groups of people looking for a place to carter a event
+* Small to medium wedding parties
+### User Requrements and Expectations
+* A simple and intuitive navigation system
+* Quickly and easily find relevant information
+* Links and functions that work as expected
+* Good presentation and a visually appealing design regardless of screen size
+* An easy way to contact the bussines
+* content that the user can skim read
+* Accessibility
+
+# User Stories
+### First-time User
+1. As a first time user, I want to know where the GYM is lokated
+2. As a first time user, I want to know more about the GYM
+3. As a first time user, I want to know the Membership prices
+4. As a first time user, I want to get a feel of what to expect at the restaurant
+### Returning User
+1.As a returnign user, I want to know the opening times
+2.As a returning user, I want to leave some comment, suggestion or message to the staff
+3.As a returning user, I want to find the GYM on social media
+4.As a returning user, I want to get directions to the GYM
+### Site Owner
+1.As the site owner, I want users to find news about upcoming events or changes in opening times
+2.As the site owner, I want users to get to know the GYM
+3.As the site owner, I want the users to be able to contact us
+
+# Design Choices
+
+The webpage was designed with the feeling a customer might get while training at the GYM. It is calm, bright and inviting. and video help to show it.
+
+# Structure
+The page is structured in a well know, recognizable, user friendly, and easy to learn way. Upon arriving the user sees a familiar type of navigation bar with the GYM name logo on the left side and the navigation links one the right. The website consists of three separate pages and a modal link for contact:
+
+* A homepage with a sections of Gym video and photos of facilities , reviews and special tennis class 
+* A Join and become member ,price planes
+* A map page how to find the GYM 
+* A Login page for existing member
+
+# sample photo of wab pages
+
+
+
+## Technologies
+Languages 
+* HTML
+* CSS
+
+Project Tools:
+* Bootstrap version: 5.2
+* Google fonts 
+* Gitpod
+* Git
+* Font Awsome
+
+## Setup
+To run this project,you need to install gitpod extention with your chrome browser
+and login to your github .
+
+![Algorithm schema](./assets/images/brand_front_image.png)

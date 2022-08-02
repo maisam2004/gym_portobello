@@ -212,9 +212,24 @@ this facility fees and classes for tennis .
 
 ![facilities sections](./assets/images/special_class.jpeg)
 
+  * but only first image shown in mobile view
+  
+ 05.Home page next section is a Carousel of customer Reviews of gym to show some good point of gym
+    and stars piction to tell overal score
+    on next secion ,i placed two btn to make it easier for first time visitor to either press Join or if have a question make an enquiry 
+    
+   
+   ![reviews sections](./assets/images/reviews_contact.jpeg)
+    
+
+ 
+ 
+  
+  
+  
 
 
-
+  
 
 
 ## Technologies

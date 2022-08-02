@@ -169,7 +169,7 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 01.Upon arriving the user sees a familiar type of navigation bar with the GYM name logo on the left side and the navigation links one the right. The website consists of three separate pages and a modal link for contact
 
 ![Navigation bar](./assets/images/navbar.jpeg)
-![Navigation bar on mobile device](./assets/images/navbar.jpeg)
+![Navigation bar on mobile device](./assets/images/navbar_mobile.jpeg)
 
 
 

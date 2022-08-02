@@ -171,12 +171,6 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 ![Navigation bar](./assets/images/navbar.jpeg)
 ![Navigation bar on mobile device](./assets/images/navbar_mobile.jpeg)
 
-
-
-
-
-
-
 * A Logo link for homepage with a sections of Gym video and photos of facilities , reviews and special tennis class 
 * A Join page with sections for benefits, membership price planes and Form to fill to join 
 * A contact us is modal form to contact GYM
@@ -186,6 +180,24 @@ The page is structured in a well know, recognizable, user friendly, and easy to 
 
 
 # sample photo of wab pages
+
+01.The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation. 
+It includes a Logo, Join and Contact us modal link and map link and is responsive on multiple screen sizes but for mobile
+login icon will be hidden and login link will show up. 
+
+   * the navigaiton bar is same for all there pages
+
+
+![Navigation bar](./assets/images/navbar.jpeg)
+![Navigation bar on mobile device](./assets/images/navbar_mobile.jpeg)
+
+02.HOmepage Landing Page includes a short video of gym and JOIN button and a text overlay that tell why to join and persuade page visitor
+    to click join easily 
+![landing page](./assets/images/landing_page.jpeg)
+
+03.in the Homepage next sections explain the text overlay and what facilities the gym has
+
+![facilities sections](./assets/images/fac_explain.jpeg)
 
 
 

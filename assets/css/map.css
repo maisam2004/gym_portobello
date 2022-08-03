@@ -224,6 +224,12 @@ text-decoration-line:none;
 footer a:hover{
   color: #45974a;
 }
+
+footer a:visited{
+  color:wheat;
+}
+
+
 .links_us li{ /* for mobile look at media screen on end */
   font-weight: bold;
   padding-top: 5%;
@@ -248,7 +254,7 @@ height: 40%;
 
 }
 
-.footer_brand{
+.footer_brand{/*it has media query for mobile */
 font-family: 'EB Garamond', serif;
 /* text-align: center; */
 line-height: 23px;
@@ -270,13 +276,12 @@ font-size:xxx-large;
 .social_list2{
   display: inline-flex;
   list-style: none;
-  /* width: max-content; */
-  /* margin: 0 auto; */
+  
 }
 
 .social_list2 li{
   font-size: xx-large;
-  /* margin: 0 auto; */
+  
 }
 .social_list2 .lists_li_p{
 padding-left: 12%;

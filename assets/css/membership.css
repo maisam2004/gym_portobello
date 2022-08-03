@@ -583,6 +583,10 @@ footer a:hover{
   color: #45974a;
 }
 
+footer a:visited{
+  color: wheat;
+}
+
 .links_us li{ /* for mobile look at media screen on end */
   font-weight: bold;
   padding-top: 5%;
@@ -606,7 +610,7 @@ height: 40%;
 
 }
 
-.footer_brand{
+.footer_brand{ /*it has media query for mobile */
 font-family: 'EB Garamond', serif;
 /* text-align: center; */
 line-height: 23px;
@@ -656,7 +660,7 @@ padding-left: 12%;
   width: max-content;
   padding: 10px;
   border-radius: 30%;
-  font-size: larger;
+  font-size: xx-large;
   font-weight: bolder;
 }
 .top:visited{
@@ -675,8 +679,9 @@ padding-left: 12%;
       
       line-height: 23px;
       font-size:xx-large;
-      padding-top: 2%;
-      padding-bottom: 2%;
+      padding-top: 4%;
+      padding-bottom: 4%;
+      padding-left: 11%;
 
     }
   }

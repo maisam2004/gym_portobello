@@ -237,11 +237,24 @@ this facility fees and classes for tennis .
   
 ![footer sections](./assets/images/footer_part.jpeg)
 
+  ### JOIN PAGE
+  
+  01. At first part there is logo and Under it used blink feature to show current offer and visitor of page by press it move to join form
+  ![footer sections](./assets/images/footer_part.jpeg)
+  
+  02.second part featured some of member benefits after join the club, with background image of a member with smile, reflect the feeling of being member
+    ![footer sections](./assets/images/footer_part.jpeg)
+
+  03.At top of third part there are there cards that Features three membership pricing and mentioned what is not include.and join button 
+    * After it there is a join or create account form positoned at middle of page and each input has icon next to it.
+    
+    
+    
   
 
 
 ## Technologies
-Languages 
+Languages  
 * HTML
 * CSS
 

@@ -20,12 +20,17 @@ body .modal-open {
 
 
 /* nav bar --------------------------- */
-.navbar-brand{
+.navbar-nav{
+  text-align: center;
+
+}
+
+.navbar-brand{ /*logo */
     font-family: 'EB Garamond', serif;
-    /* text-align: center; */
     line-height: 23px;
 
   }
+
   .navbar-brand:hover{
     color: rgb(33, 180, 40);
 
@@ -42,10 +47,7 @@ body .modal-open {
   background-color:#45974a;
 }
 
-  .navbar-nav{
-    text-align: center;
-
-  }
+  
   .navbar-expand-lg .navbar-collapse { /*from scss copied to control navlinks righ side postion*/
     padding-right: 2%;
   }
@@ -79,17 +81,12 @@ a.nav-link.d-none.d-lg-block:hover{
 }
 
 
-
-
-.navbar-toggler{
-    
-}
 .navbar-toggler:hover{
-    background-color: #acd8ae;
+    background-color: #acd8ae83;
 }
 
 
-
+/*overlay controls */
 
 /* background_img_banner class for banner*/
 .background_img_banner{

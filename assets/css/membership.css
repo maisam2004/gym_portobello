@@ -51,7 +51,7 @@ body.modal-open {
 }
 
 
-.navbar-brand{
+.navbar-brand{ /* logo */
   font-family: 'EB Garamond', serif;
   line-height: 23px;
 
@@ -60,14 +60,19 @@ body.modal-open {
   color: rgb(33, 180, 40);
 
 }
-a.nav-link.d-none.d-lg-block:hover{
-  background-color: rgba(245, 245, 245, 0.144);
-  color:#45974a;
+
+span.your.account img{ /* border arond navbar login icone */
+  border: rgb(8, 8, 8) double 3px;
+  border-radius: 43%;
 }
+
+span.your.account img:hover{
+  background-color:#45974a;
+}
+
 .navbar-expand-lg .navbar-collapse { /*from scss copied to control navlinks righ side postion*/
   padding-right: 2%;
 }
-
 
 .nav-link {
   display: block;
@@ -80,22 +85,23 @@ a.nav-link.d-none.d-lg-block:hover{
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
-.nav-link:hover{ 
+
+
+
+.nav-link:hover{ /*for mobile screen on line 284 */
   background-color: #45974a;
   color: whitesmoke;
  
 }
 
-
-span.your.account img{ /* border arond navbar login icone */
-  border: rgb(8, 8, 8) double 3px;
-  border-radius: 43%;
+a.nav-link.d-none.d-lg-block:hover{
+  background-color: rgba(245, 245, 245, 0.144);
+  color:#45974a;
 }
 
 
-span.your.account img:hover{
-  background-color:#45974a;
-}
+
+
 
 
 .bg-light{
@@ -107,30 +113,13 @@ span.your.account img:hover{
 
 
 
-
-.navbar-toggler{
-}
 .navbar-toggler:hover{
-  background-color: #acd8ae;
+  background-color: #acd8ae83;
 }
 
+/*overlay controls */
 
 
-
-
-/* overlay 
-
-.opaque-overlay {
-  position: absolute;
-  top:
-  inherit;
-  left: 0;
- 
-  height: 60%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-*/
 .opaque-overlay {
   position: absolute;
   top:
@@ -143,15 +132,11 @@ span.your.account img:hover{
 }
 
 .brand_image_over{
-  /* justify-items: center; */
-  /* background-image: url(../images/main_images/por_gym_edit2.png); */
-  /* background-image: url(../images/FONTS22.png); */
-  /* background-repeat: no-repeat; */
+  
   position: relative;
-  /* height: 40%; */
+  
   top: 3.8%;
-  /* margin: 0 auto; */
-  /* right: 50%; */
+  
   text-align: center;
 }
 
@@ -643,13 +628,12 @@ font-size:xxx-large;
 .social_list2{
   display: inline-flex;
   list-style: none;
-  /* width: max-content; */
-  /* margin: 0 auto; */
+  
 }
 
 .social_list2 li{
   font-size: xx-large;
-  /* margin: 0 auto; */
+ 
 }
 .social_list2 .lists_li_p{
 padding-left: 12%;
@@ -688,7 +672,7 @@ padding-left: 12%;
   }
   
     .footer_brand{
-      /* text-align: center; */
+      
       line-height: 23px;
       font-size:xx-large;
       padding-top: 2%;

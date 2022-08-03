@@ -486,6 +486,9 @@ text-decoration-line:none;
     font-weight: bold;
     padding-top: 1%;
   }
+  .opening ul{
+    list-style:square;
+  }
   
   
 

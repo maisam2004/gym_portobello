@@ -597,7 +597,9 @@ footer a:visited{
   font-weight: bold;
   padding-top: 1%;
 }
-
+.opening ul{
+  list-style:square;
+}
 
 
 

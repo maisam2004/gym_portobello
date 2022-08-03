@@ -221,6 +221,9 @@ footer a {
 text-decoration-line:none;
 
 }
+footer a:hover{
+  color: #45974a;
+}
 .links_us li{ /* for mobile look at media screen on end */
   font-weight: bold;
   padding-top: 5%;

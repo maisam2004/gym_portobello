@@ -240,14 +240,19 @@ this facility fees and classes for tennis .
   ### JOIN PAGE
   
   01. At first part there is logo and Under it used blink feature to show current offer and visitor of page by press it move to join form
-  ![footer sections](./assets/images/footer_part.jpeg)
+  ![header section](./assets/images/join_blink.jpeg)
   
-  02.second part featured some of member benefits after join the club, with background image of a member with smile, reflect the feeling of being member
-    ![footer sections](./assets/images/footer_part.jpeg)
+  02.second part featured list of member benefits after join the club,can speed up customer’s ability to make choices or informed decisions ,it is of huge value.
+  with background image of a member with smile, reflect the feeling of being member by the wat it will not shown in mobile view
 
-  03.At top of third part there are there cards that Features three membership pricing and mentioned what is not include.and join button 
-    * After it there is a join or create account form positoned at middle of page and each input has icon next to it.
-    
+   ![member benefits list ](./assets/images/join_benefit.jpeg)
+    ![member benefits list mobile view ](./assets/images/join_m_benefit.jpeg)
+    * mobile view
+   
+
+  03.At top of third part there are there cards that Features three membership pricing and mentioned what is not include.and join buttons
+    * After it there is a join or create account form positoned at middle of page and each input has an icon next to it.so for better readability. 
+  ![price planes  ](./assets/images/join_form2.jpeg)
     
     
   

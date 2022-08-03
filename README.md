@@ -178,7 +178,9 @@ Upon arriving the user sees a familiar type of navigation bar with the GYM name 
 
 
 
-# sample photo of wab pages
+# sample photos and pages Features
+
+## Homepage 
 
 01.The navigation bar has a consistent look and placement on all three pages of the website supporting easy navigation. 
 It includes a Logo, Join and Contact us modal link and map link and is responsive on multiple screen sizes but for mobile
@@ -192,42 +194,48 @@ login icon will be hidden and login link will show up.
 
 
 
-02.HOmepage Landing Page includes a short video of gym and JOIN button and a text overlay that tell why to join and persuade page visitor
-    to click join easily 
+02.The Homepage Landing Page includes a short video of gym and JOIN button and a text overlay that tell why to join and persuade page visitor
+    to click join button 
     
     
 ![landing page](./assets/images/landing_page.jpeg)
 
   
   
-03.in the Homepage next sections explain the text overlay and what facilities the gym has, 
- also it contain slid photos of parts of gym include yoga classes
+03.In the Homepage next sections explain the text overlay and what facilities the gym has, 
+ also it contain #slideshow of parts of the gym include yoga classes
 
 
 ![facilities sections](./assets/images/fac_explain.jpeg)
 
-04.At next section of homepage Allowes users to see the facility not all GYMs have ,tennis court ,special part of gym with small info about
-this facility fees and classes for tennis .
+04.At next section of Homepage Allowes users to see the facility not all GYMs have ,tennis court ,special part of gym with small info about
+this facility fees and classes for tennis . 
 
 
 ![facilities sections](./assets/images/special_class.jpeg)
 
-  * but only first image shown in mobile view
+  * but only first image will in mobile view
   
- 05.Home page next section is a Carousel of customer Reviews of gym to show some good point of gym
-    and stars piction to tell overal score
-    on next secion ,i placed two btn to make it easier for first time visitor to either press Join or if have a question make an enquiry 
+ 05.The Homepage next section is a Carousel of customer Reviews of gym to show some good point of gym
+    and stars image to tell overal score ,perhaps this pursued first time visitor to click buttons on next section of page after see tennis facility and  customer reviews.
+    
+  06.as mentioned on next secion ,placed two buttons to make it easier for visitor  to either press Join or if they have a question make an enquiry 
     
    
-   ![reviews sections](./assets/images/reviews_contact.jpeg)
+   ![reviews and buttons sections](./assets/images/reviews_contact.jpeg)
     
-
+07. Last part of Homepage is footer 
  
- 
+* The footer is featured on all three pages and is identical on each page making it easy to use. It contains three column section :
+  * Stay in Touch - this area has links to write or phone the Gym and links to social media sites associated with the organisation encouraging the user to keep connected. The links will open in a new tab to allow easy navigation for the user. The organisation can use these sites to promote brand awareness and keep customers interested through updates, offers, chats and other marketing efforts
   
-  
-  
+  * Opening Times - having the opening times in the footer on each page allows the user to quickly and easily find this information. 
+  * The name of the Gym to repeat it for visitor and become more familiar with the name.
 
+  * Place a ancher icon at right side of footer  for bring back visitor to top of page faster 
+  
+  
+![footer sections](./assets/images/footer_part.jpeg)
 
   
 

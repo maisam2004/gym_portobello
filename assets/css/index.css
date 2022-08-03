@@ -213,11 +213,11 @@ a.nav-link.d-none.d-lg-block:hover{
 /* article tag color */
 
 article{
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.226);
 }
 
 
-/* describe section*/
+/* describe section after header*/
 
 .describe .row {
     background-color:
@@ -253,12 +253,9 @@ article{
 
   
   figure{
-    /* line-height: 100px; */
+    
      margin: revert; 
   }  
-  
-
-
   
   
    figure img{
@@ -285,7 +282,7 @@ article{
   }
 
   
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 480px) { /*control small facility control on mobil view */
     figure{
         /* line-height: 20px; */
         margin: 0 0 1rem;
@@ -324,35 +321,30 @@ article{
         padding-left: 1%;
     }
         
-        @media only screen and (max-width: 480px) {
-            .photos{
-            
-                padding-bottom: 0%;
-                }
+          @media only screen and (max-width: 480px) { /*slide photo control for mobile device view */
+              .photos{
+              
+                  padding-bottom: 0%;
+                  }
+          
+              .slide_photos_1{
+                  margin-left: -10%;
+                  margin-right: -10%;
+                  margin-top: -5%;
+              }
+              h2{
+                  padding: 5%;
+              }
+              }
         
-            .slide_photos_1{
-                margin-left: -10%;
-                margin-right: -10%;
-                margin-top: -5%;
-            }
-            h2{
-                padding: 5%;
-            }
-            }
         
-        
-        .carousel-inner{
-           
-        }
-        
-        .carousel-item{
-        }
+
         
         .slide_notes_h3{
             padding: 5%;
         }
         
-        /* some notes */
+ /* some notes */
         .some_notes_h3{
             padding: 5%;
         }
@@ -418,32 +410,27 @@ article{
 
 .enquiry_row  a{
     text-decoration: none;
-    color:rgb(248, 244, 27);}
+    color:rgb(248, 244, 27);
+  }
     
 
 
 
 .modal_enquire_join{
+      margin: 8%;
+      }
 
-    margin: 8%;
-    }
 .join_club{
-        float: left;
-        
+        float: left;   
     }
-
-
-
 
 .last_btn_member{
-    
-    /* margin-right: 5%; */
     width: 150px;
     height: 76px;
     line-height: 60px; 
     font-size: 16px;
     font-weight: bold;
-    /* font-family: 'Bebas Neue', sans-serif; */
+    
     background: linear-gradient(45deg, transparent 5%, #43065f 5%);
     border: 0;
     color: rgb(248, 244, 27);
@@ -456,7 +443,7 @@ article{
     touch-action: manipulation;
     text-transform: uppercase;
     border-radius: 0;
-    /* border-left: #00e6f6 solid 4px; */
+    
 }
 .last_btn_member:hover {
     background: linear-gradient(45deg, transparent 5%, #084298 5%);
@@ -464,7 +451,7 @@ article{
     border: 0;
     color: rgb(248, 244, 27);
     
-    /* border-left: #00e6f6 solid 4px; */
+   
 }
 .last_btn_member:visited {
     background: linear-gradient(45deg, transparent 5%, #084298 5%);
@@ -478,50 +465,6 @@ article{
 
 
 
-/*footer part 
-
-.main_footer{
-    background-color:#0b2265;
-    height: auto;
-    width: 100%;
-    height: 40%;
-    
-   
-    
-    
-}
-
-.first_col_social,.footer_brand_small{
-    margin-top: 4%;
-}
-
-
-
-.social_list1{
-        display: inline-flex;
-        list-style: none;
-        
-    }
-
-.social_list1 li{
-        padding-left: 5px;
-        font-size: larger;
-        
-    }
-footer a {
-    color: wheat;
-    text-decoration-line:none;
-      }
-
-.fa-brands{
-        color:wheat ;
-    }
-    .tel{
-        color: wheat;
-        list-style: none;
-        margin-left: 4px;
-    }
-    */
     /*new footer style */
 
   footer a {

@@ -186,7 +186,7 @@ Upon arriving the user sees a familiar type of navigation bar with the GYM name 
 It includes a Logo, Join and Contact us modal link and map link and is responsive on multiple screen sizes but for mobile
 login icon will be hidden and login link will show up. 
 
-   * the navigaiton bar is same for all there pages
+   * the navigaiton bar is same for all three pages
 
 
 ![Navigation bar](./assets/images/navbar.jpeg)
@@ -253,7 +253,35 @@ this facility fees and classes for tennis .
   03.At top of third part there are there cards that Features three membership pricing and mentioned what is not include.and join buttons
     * After it there is a join or create account form positoned at middle of page and each input has an icon next to it.so for better readability. 
   ![price planes  ](./assets/images/join_form2.jpeg)
-    
+ 
+ 
+ ### MAP PAGE
+ 
+ * MAP page gives the user an interactive google map showing the location of the club along with details on full address in adequete size font to make it easily readable. By clicking the 'View larger map' link the user can go to the google maps site for the address - this opens in a separate tab to allow ease of navigation.
+ and user find out about nearest satations and distance from the club.
+
+![price planes  ](./assets/images/map_page.jpeg)
+  
+  
+  ### CONTACT US /navigaiton bar modal
+  
+  *  featured on all three pages and is identical on each page making it easy to use and for easey accessability place contact us in navbar and linked to modal form and request visitor  to enter  email, name and mobile number which are useful for future marketing campaign 
+  , check boxs for contact reason and text area input for questions .
+  
+  ![price planes  ](./assets/images/contact_us_moda.jpeg)
+  
+  
+  ### login Page
+  
+  * with a simple login form and clean design and image background on mobile devices and orange color in full desktop mode,
+  in the middle of page easily noticeable by visitor and all they nedd enter requeired details.
+  
+  ![price planes  ](./assets/images/login_page_desktop.jpeg)
+  
+   ![price planes  ](./assets/images/login_m_page.jpeg) * mobile view
+  
+  
+  
     
   
 

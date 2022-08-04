@@ -133,6 +133,12 @@ span.your.account img:hover{
     color: rgb(197, 216, 24);
   }
   
+  .modal-body {
+    top:44px; /* only on login page */
+  }
+
+
+
   @media only screen and (max-width: 540px) {
     .whole_contents_col{
       background-color:rgba(245, 245, 220, 0.001);

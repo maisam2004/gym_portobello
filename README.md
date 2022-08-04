@@ -22,16 +22,10 @@ An small web project for Frontend Developmentor part of training needs.
 * VS.code
 
 
-## Prerequisites
+## Prerequisites recomended
 * Install Gitpod (for more info please go to this link https://www.gitpod.io/docs/getting-started/ )
+* vscode
 
-
-
-## Setup
-To run this project,you need to install gitpod extention with your chrome browser
-and login to your github .
-
-![Algorithm schema](./assets/images/brand_front_image.png)
 
 
 # Project Goals
@@ -202,37 +196,8 @@ this facility fees and classes for tennis .
   
   
   
-    
-  
+##Validation
 
-
-## Technologies
-
-
-### Languages  
-* HTML
-* CSS
-
-#### Project Tools:
-* Bootstrap version: 5.2
-* Google fonts 
-* Gitpod
-* Git
-* Font Awsome
-* VS.code
-
-
-## Prerequisites
-* Install Gitpod (for more info please go to this link https://www.gitpod.io/docs/getting-started/ )
-
-
-
-
-## Setup
-To run this project,you need to install gitpod extention with your chrome browser
-and login to your github .
-
-![Algorithm schema](./assets/images/brand_front_image.png)
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.

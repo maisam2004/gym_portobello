@@ -479,6 +479,7 @@ text-decoration-line:none;
   .links_us li{ /* for mobile look at media screen on end */
     font-weight: bold;
     padding-top: 5%;
+    list-style: none;
   }
 
   .opening{

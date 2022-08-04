@@ -196,7 +196,28 @@ this facility fees and classes for tennis .
   
   
   
-## Validation
+## Validator Testing
+
+#### HTML pages
+1. index.html
+2. membership.html
+3. map.html
+4. login.html
+
+* Testing result of html validator for all html pages was same  
+
+
+![validation_html_result  ](./assets/images/join_valid_1.jpeg) 
+
+#### CSS pages
+1. index.css
+2. membership.css
+3. map.css
+4. login.css
+
+* Testing result for css files of all page
+
+  ![price planes  ](./assets/images/join_valid_css.jpeg)
 
 
 ## Contributing

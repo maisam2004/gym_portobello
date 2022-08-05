@@ -234,7 +234,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 
 ### Contact
-* maisan hussein - @your_twitter - email@example.com
+* maisan hussein - @your_twitter 
 
 Project Link: https://github.com/maisam2004/gym_portobello
 

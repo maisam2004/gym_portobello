@@ -222,8 +222,9 @@ this facility fees and classes for tennis .
   ![price planes  ](./assets/images/join_valid_css.jpeg)
 
 
-### Code sources
-<p> main source for coding the project pages used bootstrap then done some  changes by CSS 
+## Code sources
+<ol>
+<li> main source for coding the project pages used bootstrap then done some  changes by CSS 
 map wich it was google provided codes</p>
 
 <ul>
@@ -233,6 +234,10 @@ map wich it was google provided codes</p>
 <li><a href="https://getbootstrap.com/docs/5.2/components/navbar/">Bootstrap Navbar</a> </li>
 
 </ul>
+
+<li>For map link and how to embed it use Google map sources from<a href="https://developers.google.com/maps/documentation/embed/get-started" target=_blank> this link</a></li>
+
+<li>the Book i have used for coding was <a href="https://www.oreilly.com/library/view/learning-web-design/9781491960196/" target=_blank>learning web design</a> </li>
 
 
 ## Contributing

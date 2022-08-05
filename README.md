@@ -174,6 +174,8 @@ this facility fees and classes for tennis .
  * MAP page gives the user an interactive google map showing the location of the club along with details on full address in adequete size font to make it easily readable. By clicking the 'View larger map' link the user can go to the google maps site for the address - this opens in a separate tab to allow ease of navigation.
  and user find out about nearest satations and distance from the club.
 
+
+
 ![price planes  ](./assets/images/map_page.jpeg)
   
   
@@ -218,6 +220,19 @@ this facility fees and classes for tennis .
 * Testing result for css files of all page
 
   ![price planes  ](./assets/images/join_valid_css.jpeg)
+
+
+### Code sources
+<p> main source for coding the project pages used bootstrap then done some  changes by CSS 
+map wich it was google provided codes</p>
+
+<ul>
+<li><a href="https://getbootstrap.com/docs/5.2/components/modal/"  target=_blank>Bootstrap Modal </a></li>
+<li><a href="https://getbootstrap.com/docs/5.2/components/card/">Bootstrap Card</a></li>
+<li><a href="https://getbootstrap.com/docs/5.2/components/carousel/">Bootstrap Carousel</a> </li>
+<li><a href="https://getbootstrap.com/docs/5.2/components/navbar/">Bootstrap Navbar</a> </li>
+
+</ul>
 
 
 ## Contributing

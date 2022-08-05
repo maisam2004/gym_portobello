@@ -237,7 +237,7 @@ map wich it was google provided codes</p>
 
 <li>For map link and how to embed it use Google map sources from<a href="https://developers.google.com/maps/documentation/embed/get-started" target=_blank> this link</a></li>
 
-<li>the Book i have used for coding was <a href="https://www.oreilly.com/library/view/learning-web-design/9781491960196/" target=_blank>learning web design</a> </li>
+<li>A Book used for coding was <a href="https://www.oreilly.com/library/view/learning-web-design/9781491960196/" target=_blank>learning web design</a> </li>
 
 
 ## Contributing

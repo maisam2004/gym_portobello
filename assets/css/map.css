@@ -10,6 +10,12 @@ body{
     font-family: "Oxygen";
 
   }
+  body .modal-open {
+    padding-right: 0 !important; /*to stop modall effect padding of page */
+
+
+  }
+  
   .navbar-section{
   }
 
@@ -25,7 +31,6 @@ body{
     
 
   }
-
 
 
   #navbarNavAltMarkup > div > a:nth-child(4){ /*bg color for map page */

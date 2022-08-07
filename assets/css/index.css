@@ -380,7 +380,10 @@ article{
 
 
 /*second lide review */
-
+section.second_slide2 h2{
+  padding-left: 3em;
+  padding-top: 0.5em;
+}
 
 .review_slide{
     margin-left: -15px;

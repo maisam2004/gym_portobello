@@ -15,51 +15,40 @@ body{
 
 
   }
-  
-  .navbar-section{
-  }
+/* nav bar --------------------------- */
+.navbar-nav{
+  text-align: center;
 
-  .navbar-toggler{
-  }
-  .navbar-brand{
+}
+
+.navbar-brand{ /*logo */
     font-family: 'EB Garamond', serif;
     line-height: 23px;
+
   }
 
   .navbar-brand:hover{
     color: rgb(33, 180, 40);
-    
 
   }
 
 
-  #navbarNavAltMarkup > div > a:nth-child(4){ /*bg color for map page */
-   background-color:#45974a;
-    }
-
-
-span.your.account img{
-  border: rgb(8, 8, 8) double 3px;
-  border-radius: 43%;
-}
-
-
-span.your.account img:hover{ /*hover for navbar login icone */
-  background-color:#45974a;
-
-}
-
-  .navbar-nav{
-    text-align: center;
-
-  }
-  .navbar-expand-lg .navbar-collapse { /*from scss copied to control navlinks righ side postion*/
-    padding-right: 2%;
+  span.your.account img{ /* border arond navbar login icone */
+    border: rgb(8, 8, 8) double 3px;
+    border-radius: 43%;
   }
   
 
+  span.your.account img:hover{
+  background-color:#45974a;
+}
 
-  .nav-link {
+  
+  .navbar-expand-lg .navbar-collapse { /*from scss copied to control navlinks righ side postion*/
+    padding-right: 2%;
+  }
+
+.nav-link {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
@@ -69,18 +58,28 @@ span.your.account img:hover{ /*hover for navbar login icone */
     letter-spacing:1px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
-.nav-link:hover{ 
-  background-color: #45974a;
-  color: whitesmoke;
- 
+.nav-link:hover{  /*for mobile screen on line 284 */
+    background-color: #45974a;
+    color: whitesmoke;
+   
 }
+a.nav-link.d-none.d-lg-block:hover{
+    background-color: rgba(245, 245, 245, 0.144);
+    color:#45974a;
+}
+
+
 .bg-light{
-  --bs-bg-opacity: .8;
-  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
-  background-color: #465f856b ;
+    --bs-bg-opacity: .8;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    background-color: #465f856b ;
 
 }
 
+
+.navbar-toggler:hover{
+    background-color: #acd8ae83;
+}
 
 
 /*  add new styles for banner*/

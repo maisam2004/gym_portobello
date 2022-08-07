@@ -32,6 +32,8 @@
 }
 .navbar-brand:hover{
   color: rgb(33, 180, 40);
+  background-image: url("/assets/images/home.png");
+  background-position: top left;
 
 }
 

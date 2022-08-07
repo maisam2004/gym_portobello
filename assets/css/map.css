@@ -86,20 +86,7 @@ a.nav-link.d-none.d-lg-block:hover{
   .background_img_banner{
     height: 28vh;
   }
-  /*
-.image_banner ,.background_img_banner{
-    position: fixed;
-    z-index: -1; 
-    inset: 0px;
-    overflow: hidden;
-    background-size: cover;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: 30% 50%;
-    background-image: url(../images/Admirals-Cove_fitness-center-2000x12002.jpg);
 
-}
-*/
 header{
   
 }

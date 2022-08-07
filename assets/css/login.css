@@ -72,6 +72,12 @@ span.your.account img:hover{
  
 }
 
+a.nav-link.d-none.d-lg-block:hover{
+  background-color: rgba(245, 245, 245, 0.144);
+ /* color:#977645;*/
+}
+
+
 .bg-light{ /* change transparency of nav bar light color*/
   --bs-bg-opacity: .8;
   background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
@@ -80,9 +86,7 @@ span.your.account img:hover{
 }
 
 
-.navbar-toggler{
-  
-}
+
 .navbar-toggler:hover{
   background-color: #acd8ae;
 }

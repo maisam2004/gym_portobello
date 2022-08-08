@@ -181,6 +181,16 @@ this facility fees and classes for tennis .
   
 ![footer sections](./assets/images/footer_part.jpeg)
 
+      <hr>
+#### homepage desktop and mobile views photos
+
+
+
+
+
+
+
+
   ### JOIN PAGE
   
   01. At first part there is logo and Under it used blink feature to show current offer and visitor of page by press it move to join form
@@ -220,11 +230,12 @@ this facility fees and classes for tennis .
   ### login Page
   
   * with a simple login form and clean design and image background on mobile devices and orange color in full desktop mode,
-  in the middle of page easily noticeable by visitor and all they nedd enter requeired details.
+  in the middle of page easily noticeable by visitor and all they need to do enter requeired details.
   
-  ![price planes  ](./assets/images/login_page_desktop.jpeg)
-  
-   ![price planes  ](./assets/images/login_m_page.jpeg) * mobile view
+  ![price planes  ](./assets/images/login_page_desktop.jpeg) ![price planes  ](./assets/images/login_m_page.jpeg) 
+ 
+ 
+  * mobile view
   
   
   

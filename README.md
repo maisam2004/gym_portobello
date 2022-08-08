@@ -183,7 +183,7 @@ this facility fees and classes for tennis .
 
       <hr>
 #### homepage desktop and mobile views photos
-
+![index desktop view ](./assets/images/index_wholepage.jpeg) ![index mobile view](./assets/images/index_mobile23.png)
 
 
 

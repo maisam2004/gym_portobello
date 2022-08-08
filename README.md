@@ -90,9 +90,15 @@ so designed withe video and photo slides
 <br>
 
 ### current design wrieframe and for but here you see desktop version
+
+*  index page                                                      
+*  Join Page
+
   ![style for map page](./assets/images/index_wireframe.jpg) ![style for join membership page](./assets/images/Join_wireframe.png)
-      
-      1) index page                                                      2) Join Page
+      <hr>
+* map page
+* Join page 
+
   ![style for map page](./assets/images/map_wireframe.png) ![style for login page](./assets/images/login_wireframe.png)
     <br>
 

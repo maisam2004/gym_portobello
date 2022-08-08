@@ -84,10 +84,18 @@ so designed withe video and photo slides
    
    <br>
 
-![old versian of wireframe](./assets/images/first_homepage_frame.png) ![old style for map](./assets/images/first_map_page.png)
+![old versian of wireframe homepage](./assets/images/first_homepage_frame.png) ![old style for map page](./assets/images/first_map_page.png)
 
 * <small> for wireframing used windows simple paint app</small>
 <br>
+
+### current design wrieframe and for but here you see desktop version
+![style for map page](./assets/images/first_map_page.png)
+![style for map page](./assets/images/first_map_page.png)
+![style for map page](./assets/images/first_map_page.png)
+![style for map page](./assets/images/first_map_page.png)
+
+
 
 
   

@@ -209,7 +209,7 @@ this facility fees and classes for tennis .
   ![price planes  ](./assets/images/join_form2.jpeg)
  
  #### join membership page desktop and mobile view
-  ![join page desktop page  ](./assets/images/join_form2.jpeg)   ![join page mobile view  ](./assets/images/join_form2.jpeg)
+  ![join page desktop page  ](./assets/images/join_desktop1.jpeg)   ![join page mobile view  ](./assets/images/join_mobile_view.png)
 
 
 

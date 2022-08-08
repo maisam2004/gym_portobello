@@ -117,15 +117,11 @@ a.nav-link.d-none.d-lg-block:hover{
 }
 
 .brand_image_over{
-    /* justify-items: center; */
-    /* background-image: url(../images/main_images/por_gym_edit2.png); */
-    /* background-image: url(../images/FONTS22.png); */
-    /* background-repeat: no-repeat; */
+    
     position: relative;
     /* height: 40%; */
     top: 30%;
-    /* margin: 0 auto; */
-    /* right: 50%; */
+    
     text-align: center;
 }
 
@@ -285,7 +281,7 @@ article{
         margin: 0 0 1rem;
         margin: revert;
       }
-     
+ 
 
     }
 
@@ -384,6 +380,20 @@ section.second_slide2 h2{
   padding-left: 3em;
   padding-top: 0.5em;
 }
+/*mobile view*/
+@media only screen and (max-width: 540px) { /*slide photo control for mobile device view */
+  
+  section.second_slide2 h2{
+    padding-left: 1em;
+    padding-top: 0.5em;
+  }
+
+
+  }
+
+
+
+
 
 .review_slide{
     margin-left: -15px;

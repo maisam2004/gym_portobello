@@ -208,7 +208,14 @@ this facility fees and classes for tennis .
     * After it there is a join or create account form positoned at middle of page and each input has an icon next to it.so for better readability. 
   ![price planes  ](./assets/images/join_form2.jpeg)
  
- 
+ #### join membership page desktop and mobile view
+  ![join page desktop page  ](./assets/images/join_form2.jpeg)   ![join page mobile view  ](./assets/images/join_form2.jpeg)
+
+
+
+
+
+  <hr>
  ### MAP PAGE
  
  * MAP page gives the user an interactive google map showing the location of the club along with details on full address in adequete size font to make it easily readable. By clicking the 'View larger map' link the user can go to the google maps site for the address - this opens in a separate tab to allow ease of navigation.

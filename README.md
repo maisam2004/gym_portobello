@@ -80,15 +80,18 @@ so designed withe video and photo slides
 
 # wireframes
  
- <small> for wireframing used windows simple paint app</small>
+ ### first come up with differnt style and focus was more on photos carousel (wirefram at below) then changed to the current one.for map as well aproach was more toward simple square but wasnt that easy to manage on mobile so instead use cards and inframe provided by google
+   
+   <br>
 
 ![old versian of wireframe](./assets/images/first_homepage_frame.png) ![old style for map](./assets/images/first_map_page.png)
 
+* <small> for wireframing used windows simple paint app</small>
+<br>
 
 
- <p> first come up with differnt style and focus was more on photos carousel (wirefram at top) then changed to the current one.
-    for map as well aproach was more toward simple square but wasnt that easy to manage on mobile so instead use cards and inframe provided by google
-    </p>
+  
+    
 
 # Structure
 The page is structured in a well know, recognizable, user friendly, and easy to learn way. 

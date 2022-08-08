@@ -75,7 +75,12 @@ An small web project for Frontend Developmentor part of training needs.
 
 # Design Choices
 
-The webpage was designed with the feeling a customer might get while training at the GYM. It is calm, bright and inviting. and video help to show it.
+home page’s web design influences whole on line presence. so this page designed withe feeling of customer in mind, make sure to show what they will get in this gym.
+so designed withe video and photo slides
+
+# wireframes
+
+* first design fi
 
 # Structure
 The page is structured in a well know, recognizable, user friendly, and easy to learn way. 

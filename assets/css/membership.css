@@ -14,11 +14,7 @@ body.modal-open {
   padding-right: 0 !important; /*dont all modall effect padding of page */
 }
 
-/* background_img_banner class for banner
-.background_img_banner{
-  height: 60vh;
-}
-*/
+
 .background_img_banner{
   height: 28vh;
 }
@@ -125,7 +121,6 @@ a.nav-link.d-none.d-lg-block:hover{
   top:
   inherit;
   left: 0;
-  /* padding-bottom: 10%; */
   height: 33%;
   width: 100%;
   background-color: rgba(3, 3, 3, 0.836);
@@ -170,27 +165,18 @@ a.nav-link.d-none.d-lg-block:hover{
   
   
   background-color: #34476466;
-  /*
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  */
+ 
 }
 
 @media only screen and (max-width: 560px) {
   .bg_half_row{
-   /* width: 100%;*/
   }
   }
 
 
 
 .facilities{
-/*
-padding-top: 10%;
-padding-bottom: 10%; */
+
 background-color: #5765724f;
 background-image: url(../images/happy_sport.jpeg);
 background-repeat: no-repeat;
@@ -225,10 +211,9 @@ header .some_info{
   padding-left: 0%;
   margin-top: 3%;
   font-weight: 1000;
-  /*font-family: 'Titillium Web', sans-serif;
-  font-weight: bold;*/
+  
   font-size: x-large;
-  /* background-color: #34770ff5; */
+  
 }
 
 .some_info li::marker {
@@ -243,8 +228,6 @@ header .some_info{
 
 /*happy picture */
 
-
-/*  memebrea heading and tables */
 
 
 
@@ -308,9 +291,7 @@ li span{
   border-right: #4dbe3b;
   padding: 10px;
   border-top-left-radius: 42px;
-  /* border-top-right-radius: 42px; */
   border-bottom-right-radius: 42px;
-  /* border-bottom-left-radius: 42px; */
 }
 
 #card_sides_style{
@@ -340,8 +321,7 @@ section .list-group-item:nth-child(4) {
 section .list-group-item:nth-child(1) {
   color: rgb(235, 245, 235);   
   background-color: #121b1ac4;
- /* border-top-right-radius: 50px 40px;
-  border-top-left-radius: 50px 40px; */
+
   border-top-left-radius: 42px;
  
 }
@@ -358,10 +338,6 @@ section .list-group-item:nth-child(2) ,section .list-group-item:nth-child(3){
 .card-group>.card:not(:last-child) {
   border-top-right-radius: 0;
    border-bottom-right-radius: 42px;
-}
-
-.card-group {
-  /*display: inline-flex; */
 }
 
 

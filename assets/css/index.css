@@ -375,16 +375,55 @@ article{
 
 
 /*second lide review */
+
+/*     
+ div.second_parts.container-fluid > div > section > div > div
+
+
+ p::before {
+    content: '\201C';
+    font-size: 12.5rem;
+    position: absolute;
+    display: block;
+    top: -2rem;
+    left: -2rem;
+    padding-left: 1.5rem;
+    font-weight: 500;
+    line-height: normal;
+    color: #80395B;
+}
+
+    
+    */
+
+
+    div.second_parts.container-fluid > div > section > div > div{
+
+      min-height: 255px;
+    max-width: 602px;
+    line-height: 36px;
+    
+    }
+
+
 section.second_slide2 h2{
-  padding-left: 3em;
-  padding-top: 0.5em;
+  padding-left: 4em;
+  padding-top: 1.5em;
 }
 /*mobile view*/
 @media only screen and (max-width: 540px) { /*slide photo control for mobile device view */
   
   section.second_slide2 h2{
-    padding-left: 1em;
-    padding-top: 0.5em;
+    padding-left: 1.6em;
+    padding-top: 0.7em;
+  }
+
+  div.second_parts.container-fluid > div > section > div > div{
+
+    min-height: 265px;
+  max-width: 602px;
+  line-height: 25px;
+  
   }
 
 

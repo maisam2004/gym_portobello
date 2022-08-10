@@ -11,7 +11,7 @@
     padding-right: 0px !important;/* to stop modall effect padding of page */
     }
     .back_body{
-        background-image: url("/assets/images/login_bg2.jpg");
+        background-image: url("../images/login_bg2.jpg");
         /* Full height */
         height: 100%;
       

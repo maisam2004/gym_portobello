@@ -289,6 +289,10 @@ map wich it was google provided codes</p>
 <li>A Book used for coding was <a href="https://www.oreilly.com/library/view/learning-web-design/9781491960196/" target=_blank>learning web design</a> </li>
 
 
+## Deployment
+
+<p>The website was deployed using GitHub Pages  and here the website link > <a href="https://www.oreilly.com/library/view/learning-web-design/9781491960196/" target=_blank>portobello_gym</a></p>
+
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 

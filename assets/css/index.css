@@ -402,6 +402,7 @@ article{
       min-height: 255px;
     max-width: 602px;
     line-height: 36px;
+    text-align: justify;
     
     }
 
@@ -423,6 +424,7 @@ section.second_slide2 h2{
     min-height: 265px;
   max-width: 602px;
   line-height: 25px;
+  text-align: justify;
   
   }
 

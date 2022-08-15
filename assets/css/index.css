@@ -212,8 +212,8 @@ article{
 /* describe section after header*/
 
 .describe .row {
-    background-color:
-    white;
+  background-color:  whitesmoke;
+
     color:
     rgb(71, 7, 61);
 }
@@ -221,10 +221,56 @@ article{
     margin: 5%;
     font-weight: 600;
 }
-.describe p{
-    margin: 4%;
-    font-size:large;
+.describe .h1_col{
+  background-color:  white;
+  
+
 }
+.describe p{
+    margin: 3%;
+    font-size:large;
+    padding: 1%;
+}
+.describe .para{
+  background-color:  whitesmoke;
+  display: inline-block;
+    
+  height: 350px;
+  
+ 
+-moz-transform: skew(-45deg);
+      
+  -webkit-transform: skew(-45deg);
+      
+  transform: skew(-7deg, 0deg);
+      
+      
+
+}
+
+
+/*
+.describe .para::before{
+  position: absolute;
+    left: 48.3%;
+    content: '';
+    background: white;
+    color: white;
+    height: 350px;
+    width: 45px;
+  border-right: 0px solid rgba(129, 111, 78, 0.582);
+      
+  -moz-transform: skew(-45deg);
+      
+  -webkit-transform: skew(-45deg);
+      
+  transform: skew(-7deg, 0deg);
+      
+  border-left: solid;
+      
+ 
+      
+  } 
 /* ------------ */
 
 
@@ -279,6 +325,23 @@ article{
         /* line-height: 20px; */
         margin: 0 0 1rem;
         margin: revert;
+      }
+
+      .describe .para{
+        background-color:  whitesmoke;
+        display: inline-block;
+          
+        height: 350px;
+        
+       
+      -moz-transform: skew(-45deg);
+            
+        -webkit-transform: skew(-45deg);
+            
+        transform: skew(-5deg, 0deg);
+            
+            
+      
       }
  
 

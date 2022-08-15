@@ -1,5 +1,8 @@
 
 # Portobello gym -website
+
+![homepage top part](./assets/images/gym_page1.jpeg) 
+
 ---
 A website of a gym/health club to show its facilities and show why to join it.
 

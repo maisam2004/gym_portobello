@@ -218,7 +218,7 @@ article{
     rgb(71, 7, 61);
 }
 .describe h1{
-    margin: 5%;
+    margin: 4%;
     font-weight: 600;
 }
 .describe .h1_col{
@@ -228,17 +228,15 @@ article{
 }
 .describe p{
     margin: 3%;
-    font-size:large;
+    font-size:18px;
     padding: 1%;
 }
 .describe .para{
   background-color:  whitesmoke;
-  display: inline-block;
     
-  height: 350px;
-  -moz-transform: skew(-45deg);
-  -webkit-transform: skew(-45deg);   
-  transform: skew(-7deg, 0deg);     
+ 
+  
+     
 }
 
 

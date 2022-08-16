@@ -236,41 +236,14 @@ article{
   display: inline-block;
     
   height: 350px;
-  
- 
--moz-transform: skew(-45deg);
-      
-  -webkit-transform: skew(-45deg);
-      
-  transform: skew(-7deg, 0deg);
-      
-      
-
+  -moz-transform: skew(-45deg);
+  -webkit-transform: skew(-45deg);   
+  transform: skew(-7deg, 0deg);     
 }
 
 
-/*
-.describe .para::before{
-  position: absolute;
-    left: 48.3%;
-    content: '';
-    background: white;
-    color: white;
-    height: 350px;
-    width: 45px;
-  border-right: 0px solid rgba(129, 111, 78, 0.582);
-      
-  -moz-transform: skew(-45deg);
-      
-  -webkit-transform: skew(-45deg);
-      
-  transform: skew(-7deg, 0deg);
-      
-  border-left: solid;
-      
- 
-      
-  } 
+
+
 /* ------------ */
 
 
@@ -338,7 +311,7 @@ article{
             
         -webkit-transform: skew(-45deg);
             
-        transform: skew(-5deg, 0deg);
+        transform: skew(0deg, 0deg);
             
             
       

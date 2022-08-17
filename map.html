@@ -1,213 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/ecedfde1ad.js" crossorigin="anonymous"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Lato:wght@300&family=Oxygen:wght@300&family=Titillium+Web:wght@200&display=swap" rel="stylesheet"><!--fonts for brand navbar-->
-<link rel="stylesheet" href="assets/css/map.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>map-addrss</title>
-<style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/ecedfde1ad.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Lato:wght@300&family=Oxygen:wght@300&family=Titillium+Web:wght@200&display=swap"
+    rel="stylesheet">
+  <!--fonts for brand navbar-->
+  <link rel="stylesheet" href="assets/css/map.css">
 
-</style>
+  <title>map-addrss</title>
+  <style>
+
+  </style>
 
 </head>
-<body >
 
-  <header class="contain " id="top_page"> <!--positon for header us bootstrap-->
+<body>
+
+  <header class="contain " id="top_page">
+    <!--positon for header us bootstrap-->
     <!--mobile navbar-->
     <div class="navbar-section">
       <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid"><!--navbar expad end to end by fluid -->
+        <div class="container-fluid">
+          <!--navbar expad end to end by fluid -->
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/FONTS23_small_black.png" alt="navbar brand icon" width="60" height="30" class="d-none">
+            <img src="assets/images/FONTS23_small_black.png" alt="navbar brand icon" width="60" height="30"
+              class="d-none">
             Portobello <br>Gym
-            </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">                  
-            <a class="nav-link mx-2 px-3" href="membership.html">Join</a>
-            
-            <a class="nav-link mx-2 px-3" href="#footer" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us</a>
-            <span class="d-lg-none"><a class="nav-link " href="login.html">Login</a></span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link mx-2 px-3" href="membership.html">Join</a>
 
-            <a class="nav-link bg-success  mx-2 px-3" title="Find us" href="map.html"><i class="fa-solid fa-location-dot"></i>map</a>
-          </div>
-        </div>
-        <a class="nav-link d-none d-lg-block py-1" href="login.html" title="log in"><span class="your account">
-          <img src="assets/images/signin1.png"  alt="Sign in"></span></a>
-      </div>
-        </nav>
-      </div>
-              <div class="background_img_banner container-fluid">
-                <div class="opaque-overlay">
-                  <div class="brand_image_over ">
-                    
-                    <div class="image_banner"></div>
-                    <div class="animate_image">
-                    <img src="assets/images/brand_front_image.png" alt="brand_image_main"> 
-                    </div>
-                    <div class="join offer">
-                        
-                      </div>
-              </div>
+              <a class="nav-link mx-2 px-3" href="#footer" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact
+                us</a>
+              <span class="d-lg-none"><a class="nav-link " href="login.html">Login</a></span>
+
+              <a class="nav-link bg-success  mx-2 px-3" title="Find us" href="map.html"><i
+                  class="fa-solid fa-location-dot"></i>map</a>
             </div>
           </div>
-</header>
-
-<div class="main">
-  
-  <section class="map_address container ">
-        <div class="card ">
-            <div class="card-body">
-              <h5 class="card-title">Address:</h5>
-              <address class="card-text"><i class="fa-solid fa-location-dot"></i> 4 All Saints Rd, London W11 1HH</address>
-            </div>
-            <iframe class="card-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19862.12692078666!2d-0.21435668894636628!3d51.51751134707356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876101c533d5519%3A0x70e9a3f046582ffd!2s4%20All%20Saints%20Rd%2C%20London%20W11%201HH!5e0!3m2!1sen!2suk!4v1656247140210!5m2!1sen!2suk" width="700" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="card-text ">
-              <h4 class="p-3">Nearest staionas</h4>
-                <ul class="stations ">
-                <li><span class="icon"><img src="assets/images/underground_sm.png" alt="undergroun_icon"></span><span class="station">Ladbroke Grove Station</span><span class="distance d-none d-sm-inline-block">0.3 miles</span></li>
-                <li><span class="icon"><img src="assets/images/underground_sm.png" alt="undergroun_icon"></span><span class="station">Westbourne Park Station</span><span class="distance d-none d-sm-inline-block">0.3 miles</span></li>
-                <li><span class="icon"><i class="fa-solid fa-bus"></i></span><span class="station">Powis Gardens (Stop PD)</span><span class="distance d-none d-sm-inline-block"> 0.2 miles</span></li>
-                <li><span class="icon"><i class="fa-solid fa-bus"></i></span><span class="station">Portobello Road (Stop PE)</span><span class="distance d-none d-sm-inline-block"> 0.1 miles</span></li>
-              </ul>
-            </div>
+          <a class="nav-link d-none d-lg-block py-1" href="login.html" title="log in"><span class="your account">
+              <img src="assets/images/signin1.png" alt="Sign in"></span></a>
         </div>
-        <p>
-          <a href="http://jigsaw.w3.org/css-validator/check/referer">
-              <img style="border:0;width:88px;height:31px"
-                  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-                  alt="Valid CSS!" >
-              </a>
-          </p>
-               
+      </nav>
+    </div>
+    <div class="background_img_banner container-fluid">
+      <div class="opaque-overlay">
+        <div class="brand_image_over ">
+
+          <div class="image_banner"></div>
+          <div class="animate_image">
+            <img src="assets/images/brand_front_image.png" alt="brand_image_main">
+          </div>
+          <div class="join offer">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+
+    <section class="map_address container ">
+      <div class="card ">
+        <div class="card-body">
+          <h5 class="card-title">Address:</h5>
+          <address class="card-text"><i class="fa-solid fa-location-dot"></i> 4 All Saints Rd, London W11 1HH</address>
+        </div>
+        <iframe class="card-img"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19862.12692078666!2d-0.21435668894636628!3d51.51751134707356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876101c533d5519%3A0x70e9a3f046582ffd!2s4%20All%20Saints%20Rd%2C%20London%20W11%201HH!5e0!3m2!1sen!2suk!4v1656247140210!5m2!1sen!2suk"
+          width="700" height="350" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="card-text ">
+          <h4 class="p-3">Nearest staionas</h4>
+          <ul class="stations ">
+            <li><span class="icon"><img src="assets/images/underground_sm.png" alt="undergroun_icon"></span><span
+                class="station">Ladbroke Grove Station</span><span class="distance d-none d-sm-inline-block">0.3
+                miles</span></li>
+            <li><span class="icon"><img src="assets/images/underground_sm.png" alt="undergroun_icon"></span><span
+                class="station">Westbourne Park Station</span><span class="distance d-none d-sm-inline-block">0.3
+                miles</span></li>
+            <li><span class="icon"><i class="fa-solid fa-bus"></i></span><span class="station">Powis Gardens (Stop
+                PD)</span><span class="distance d-none d-sm-inline-block"> 0.2 miles</span></li>
+            <li><span class="icon"><i class="fa-solid fa-bus"></i></span><span class="station">Portobello Road (Stop
+                PE)</span><span class="distance d-none d-sm-inline-block"> 0.1 miles</span></li>
+          </ul>
+        </div>
+      </div>
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!">
+        </a>
+      </p>
+
     </section>
-    
+
     <!--neew footer for test-->
     <footer class="main_footer p-3" id="footer">
       <div class="container text-left">
         <div class="row">
-            
-         
-            <div class="col">
-                  <ul class="links_us">  
-                      <li><a href="#">About Us</a> </li>
-                      <li><a href="mailto:email@portobellogym.com">Write to Us</a></li>                    
-                      <li><a href="https://uk.indeed.com/jobs?q=gym&l=w11&radius=5&vjk=f84490c3f516ff34" target="_blank">Jobs</a></li>
-                      <li><a href="tel:0371450080">Tel: 0371450080</a></li>
 
-                  </ul>
-              </div>
-              <div class="col opening">
-                <h5>Openning Times: </h5>
-                <ul >  
-                  <li>Mon - Fri</li>
-                  <li>06:30 - 22:00</li>                    
-                  <li>Sat - Sun</li>
-                  <li>08:00 - 18:00 </li>
-              </ul>
-    
-              </div>
-              
-            <div class="col align-self-center footer_brand">
-              
-              <a href="index.html">
-                Portobello <br>Gym
-              </a>
-              
-            </div>
 
-            
-    
+          <div class="col">
+            <ul class="links_us">
+              <li><a href="#">About Us</a> </li>
+              <li><a href="mailto:email@portobellogym.com">Write to Us</a></li>
+              <li><a href="https://uk.indeed.com/jobs?q=gym&l=w11&radius=5&vjk=f84490c3f516ff34"
+                  target="_blank">Jobs</a></li>
+              <li><a href="tel:0371450080">Tel: 0371450080</a></li>
+
+            </ul>
+          </div>
+          <div class="col opening">
+            <h5>Openning Times: </h5>
+            <ul>
+              <li>Mon - Fri</li>
+              <li>06:30 - 22:00</li>
+              <li>Sat - Sun</li>
+              <li>08:00 - 18:00 </li>
+            </ul>
+
+          </div>
+
+          <div class="col align-self-center footer_brand">
+
+            <a href="index.html">
+              Portobello <br>Gym
+            </a>
+
+          </div>
 
 
 
-        </div><!--end row -->
-        <div class="row justify-content-center">
-                <div class="col"> 
-                  <ul class="social_list2">
-                    <li ><a href="https://en-gb.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a> </li>
-                    <li class="lists_li_p"><a href="https://twitter.com/?lang=en-gb" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter-square"></i></a></li>
-                    <li class="lists_li_p"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-instagram"></i></a></li>
-                    <li class="lists_li_p"><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a></li>
-          
-                  </ul>
-                  
-              </div>
-              
+
+
+
         </div>
-    
+        <!--end row -->
+        <div class="row justify-content-center">
+          <div class="col">
+            <ul class="social_list2">
+              <li><a href="https://en-gb.facebook.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-facebook"></i></a> </li>
+              <li class="lists_li_p"><a href="https://twitter.com/?lang=en-gb" target="_blank"
+                  rel="noopener noreferrer"><i class="fa-brands fa-twitter-square"></i></a></li>
+              <li class="lists_li_p"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"> <i
+                    class="fa-brands fa-instagram"></i></a></li>
+              <li class="lists_li_p"><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-youtube"></i></a></li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
       </div>
     </footer>
 
   </div>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@stackblitz/sdk@1/bundles/sdk.umd.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@stackblitz/sdk@1/bundles/sdk.umd.js"></script>
 
-<!--modal place top-->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Your enquiry</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
+  <!--modal place top-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Your enquiry</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
           <form>
-              <div class="mb-3">
-                  <div class="form-floating mb-2">
-                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                      <label for="floatingInput">Email address</label>
-                    </div>
-                    <div class="form-floating mb-2">
-                      <input type="text" class="form-control" id="fname" placeholder="full name">
-                      <label for="fname">Full name</label>
-                    </div>
-                    <div class="form-floating mb-1">
-                      <input type="text" class="form-control" id="mobile" placeholder="Mobile number">
-                      <label for="mobile">Mobile Number</label>
-                    </div>
-                    <h4>what is you enquery about :</h4>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="classes">
-                      <label class="form-check-label" for="classes">
-                        Classes
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="membership" >
-                      <label class="form-check-label" for="membership">
-                        membeship plan
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="something_else" >
-                      <label class="form-check-label" for="something_else">
-                        something else
-                      </label>
-                    </div>
-                    <div class="form-floating mb-2">
-          
-                      <textarea name="Your_enq" rows="5" cols="40" placeholder="enter your enquiry"></textarea>
-                        <br>
-                  </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="mb-3">
+              <div class="form-floating mb-2">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
               </div>
-            </form>
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="fname" placeholder="full name">
+                <label for="fname">Full name</label>
+              </div>
+              <div class="form-floating mb-1">
+                <input type="text" class="form-control" id="mobile" placeholder="Mobile number">
+                <label for="mobile">Mobile Number</label>
+              </div>
+              <h4>what is you enquery about :</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="classes">
+                <label class="form-check-label" for="classes">
+                  Classes
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="membership">
+                <label class="form-check-label" for="membership">
+                  membeship plan
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="something_else">
+                <label class="form-check-label" for="something_else">
+                  something else
+                </label>
+              </div>
+              <div class="form-floating mb-2">
+
+                <textarea name="Your_enq" rows="5" cols="40" placeholder="enter your enquiry"></textarea>
+                <br>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+
       </div>
-    
     </div>
   </div>
-</div>
 </body>
+
 </html>

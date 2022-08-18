@@ -161,6 +161,9 @@ header{
       margin: 0 auto;
 
   }
+  .card-body{
+    width: 300px;
+  }
 
   address{
     padding-left: 2%;

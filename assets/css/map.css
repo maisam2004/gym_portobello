@@ -165,18 +165,28 @@ header{
     width: 300px;
   }
 
+  .card-title{
+    font-weight: 700;
+    color:blue;
+
+  }
+
   address{
     padding-left: 2%;
     border-bottom: 2px solid orange;
   }
+
   .card-text{
     font-family: "Oxygen";
     font-weight: 800;
   }
-      ul{
-          list-style: none;
-      }   
-    
+
+  ul{
+     list-style: none;
+  }   
+  .stations{
+    border-left: 2px solid orange;
+  }
      
   .station{
       margin-left: 10px;

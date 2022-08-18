@@ -196,11 +196,10 @@ header{
     height: 100px;
     width: 3px;
     background-color: orange;
-    margin-right: .5em;
     
   }
-  .stations{
-    
+  .stations li{
+    margin-left: .5em;
   }
      
   .station{

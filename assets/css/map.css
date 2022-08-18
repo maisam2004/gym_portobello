@@ -180,6 +180,11 @@ header{
     font-family: "Oxygen";
     font-weight: 800;
   }
+.card-text h4{
+  font-weight: 700;
+  color:blue;
+}
+
 
   ul{
      list-style: none;

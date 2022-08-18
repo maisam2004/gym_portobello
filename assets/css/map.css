@@ -190,7 +190,7 @@ header{
      list-style: none;
   }   
   .stations::before{
-    float: left;
+    position: absolute;
     display: inline-block;
     content: '';
     height: 100px;

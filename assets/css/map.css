@@ -161,6 +161,11 @@ header{
       margin: 0 auto;
 
   }
+
+  address{
+    padding-left: 2%;
+    border-bottom: 2px solid orange;
+  }
   .card-text{
     font-family: "Oxygen";
     font-weight: 800;

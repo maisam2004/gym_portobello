@@ -226,7 +226,7 @@ this facility fees and classes for tennis .
 
 
 
-![price planes  ](./assets/images/map_desktop.jpeg) ![price planes  ](./assets/images/map_mobile_view.jpeg) 
+![map desktop  ](./assets/images/map_desktop.jpeg) ![map mobile view  ](./assets/images/map_mobile_view.jpeg) 
 
   
   

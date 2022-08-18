@@ -189,7 +189,18 @@ header{
   ul{
      list-style: none;
   }   
+  .stations::before{
+    float: left;
+    display: inline-block;
+    content: '';
+    height: 100px;
+    width: 3px;
+    background-color: orange;
+    margin-right: .5em;
+    
+  }
   .stations{
+    
   }
      
   .station{

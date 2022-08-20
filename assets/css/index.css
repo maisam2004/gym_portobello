@@ -86,7 +86,7 @@ span.your.account img:hover {
 }
 
 .nav-link:hover {
-  /*for mobile screen on line 284 */
+  /*for mobile screen media queries */
   background-color: #45974a;
   color: whitesmoke;
 

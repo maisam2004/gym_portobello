@@ -218,16 +218,6 @@ header{
 
  
 
-  @media only screen and (max-width: 540px) {
-   
-  
-    .map_address{
-      margin-top: 36%;
-      margin-bottom: 3%;
-    }
-  
-    
-    }
 
 
 /*new footer style */
@@ -338,7 +328,14 @@ padding-left: 12%;
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 540px) {
+
+    .map_address{
+      margin-top: 36%;
+      margin-bottom: 3%;
+    }
+
+
   .links_us li{
  
     padding-top: 8%;

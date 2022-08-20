@@ -303,32 +303,7 @@ article{
   }
 
   
-  @media only screen and (max-width: 480px) { /*control small facility control on mobil view */
-    figure{
-        /* line-height: 20px; */
-        margin: 0 0 1rem;
-        margin: revert;
-      }
-
-      .describe .para{
-        background-color:  whitesmoke;
-        display: inline-block;
-          
-        height: 350px;
-        
-       
-      -moz-transform: skew(-45deg);
-            
-        -webkit-transform: skew(-45deg);
-            
-        transform: skew(0deg, 0deg);
-            
-            
-      
-      }
- 
-
-    }
+  
 
 
 
@@ -358,24 +333,6 @@ article{
         padding-left: 1%;
     }
         
-          @media only screen and (max-width: 480px) { /*slide photo control for mobile device view */
-              .photos{
-              
-                  padding-bottom: 0%;
-                  }
-          
-              .slide_photos_1{
-                  margin-left: -10%;
-                  margin-right: -10%;
-                  margin-top: -5%;
-              }
-              h2{
-                  padding: 5%;
-              }
-              }
-        
-        
-
         
         .slide_notes_h3{
             padding: 5%;
@@ -422,25 +379,6 @@ article{
 
 /*second lide review */
 
-/*     
- div.second_parts.container-fluid > div > section > div > div
-
-
- p::before {
-    content: '\201C';
-    font-size: 12.5rem;
-    position: absolute;
-    display: block;
-    top: -2rem;
-    left: -2rem;
-    padding-left: 1.5rem;
-    font-weight: 500;
-    line-height: normal;
-    color: #80395B;
-}
-
-    
-    */
 
 
     div.second_parts.container-fluid > div > section > div > div{
@@ -457,13 +395,6 @@ section.second_slide2 h2{
   padding-left: 4em;
   padding-top: 1.5em;
 }
-/*mobile view*/
-@media only screen and (max-width: 540px) { /*slide photo control for mobile device view */
-  
-  section.second_slide2 h2{
-    padding-left: 1.6em;
-    padding-top: 0.7em;
-  }
 
   div.second_parts.container-fluid > div > section > div > div{
 
@@ -473,12 +404,6 @@ section.second_slide2 h2{
   text-align: justify;
   
   }
-
-
-  }
-
-
-
 
 
 .review_slide{
@@ -669,19 +594,76 @@ text-decoration-line:none;
 
 
 
-  @media only screen and (max-width: 480px) {
-    .links_us li{
-   
-      padding-top: 8%;
-    }
-    
-      .footer_brand{
-        /* text-align: center; */
-        line-height: 23px;
-        font-size: xx-large;
-        padding-top: 4%;
-        padding-bottom: 4%;
-        padding-left: 11%;
 
+    /* media queries --- */
+    @media only screen and (max-width: 480px) { /*control small facility control on mobil view */
+      figure{
+          /* line-height: 20px; */
+          margin: 0 0 1rem;
+          margin: revert;
+        }
+  
+        .describe .para{
+          background-color:  whitesmoke;
+          display: inline-block;
+            
+          height: 350px;
+          
+         
+        -moz-transform: skew(-45deg);
+              
+          -webkit-transform: skew(-45deg);
+              
+          transform: skew(0deg, 0deg);
+              
+              
+        
+        }
+   
+  
       }
-    }
+
+
+    @media only screen and (max-width: 480px) { /*slide photo control for mobile device view */
+      .photos{
+      
+          padding-bottom: 0%;
+          }
+  
+      .slide_photos_1{
+          margin-left: -10%;
+          margin-right: -10%;
+          margin-top: -5%;
+      }
+      h2{
+          padding: 5%;
+      }
+      }
+
+
+@media only screen and (max-width: 540px) { /*slide photo control for mobile device view */
+  
+  section.second_slide2 h2{
+    padding-left: 1.6em;
+    padding-top: 0.7em;
+  }
+}
+
+
+    @media only screen and (max-width: 480px) {
+      .links_us li{
+     
+        padding-top: 8%;
+      }
+      
+        .footer_brand{
+          /* text-align: center; */
+          line-height: 23px;
+          font-size: xx-large;
+          padding-top: 4%;
+          padding-bottom: 4%;
+          padding-left: 11%;
+  
+        }
+      }
+  

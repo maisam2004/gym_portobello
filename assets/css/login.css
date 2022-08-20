@@ -1,56 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oxygen:wght@300&family=Titillium+Web:wght@200&display=swap');
 
-    html,body{
-      height: 100%;
-      margin: 0;
-      overflow-y: hidden;
-    }
-    body{
-      font-family: 'Lato', sans-serif;
-    font-family: 'Oxygen', sans-serif;
-    padding-right: 0px !important;/* to stop modall effect padding of page */
-    }
-    .back_body{
-        background-image: url("../images/login_bg2.jpg");
-        /* Full height */
-        height: 100%;
-      
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-size: cover;
-  
-            /* Specify the background image */      
-    }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  padding-right: 0px !important;
+  /* to stop modall effect padding of page */
+}
+
+.back_body {
+  background-image: url("../images/login_bg2.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+
+  /* Specify the background image */
+}
+
 /* nav bar --------------------------- */
-.navbar-brand{
+.navbar-brand {
   font-family: 'EB Garamond', serif;
   line-height: 23px;
 
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
   color: rgb(33, 180, 40);
 }
 
-span.your.account img{ /* border arond navbar login icone */
+span.your.account img {
+  /* border arond navbar login icone */
   border: rgb(8, 8, 8) double 3px;
   border-radius: 43%;
 }
 
 
-span.your.account img:hover{
-  background-color:#45974a;
+span.your.account img:hover {
+  background-color: #45974a;
 }
 
-  .navbar-nav{
-    text-align: center;
+.navbar-nav {
+  text-align: center;
 
-  }
-  .navbar-expand-lg .navbar-collapse { /*from scss copied to control navlinks righ side postion*/
-    padding-right: 2%;
-  }
-  
+}
+
+.navbar-expand-lg .navbar-collapse {
+  /*from scss copied to control navlinks righ side postion*/
+  padding-right: 2%;
+}
+
 
 
 .nav-link {
@@ -59,104 +68,113 @@ span.your.account img:hover{
   font-size: var(--bs-nav-link-font-size);
   font-weight: bold;
   color: #110b08;
-  text-decoration:none;
-  letter-spacing:1px;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
-.nav-link:hover{ 
+.nav-link:hover {
   background-color: #45974a;
   color: whitesmoke;
- 
+
 }
 
-a.nav-link.d-none.d-lg-block:hover{
+a.nav-link.d-none.d-lg-block:hover {
   background-color: rgba(245, 245, 245, 0.144);
 }
 
 
-.bg-light{ /* change transparency of nav bar light color*/
+.bg-light {
+  /* change transparency of nav bar light color*/
   --bs-bg-opacity: .8;
-  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
-  background-color: #465f856b ;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #465f856b;
 
 }
 
 
 
-.navbar-toggler:hover{
+.navbar-toggler:hover {
   background-color: #acd8ae;
 }
 
 
-    .row{
-        height: 50%;
-      }
-      
-    .whole_contents_col{
-        background-color:coral; /*background for whole form and icon at top */
+.row {
+  height: 50%;
+}
 
-    }
-    .form_icon{
-        color: rgba(238, 239, 232, 0.801); 
-        font-size: 100px;
-        text-align: center;
-        text-shadow: 0 0 20px rgba(0,0,0,0.2);
-        padding: 70px 0;
-        vertical-align: top;
+.whole_contents_col {
+  background-color: coral;
+  /*background for whole form and icon at top */
+
+}
+
+.form_icon {
+  color: rgba(238, 239, 232, 0.801);
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 70px 0;
+  vertical-align: top;
+}
+
+.form_icon .title {
+  font-family: "Oxygen";
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+
+form {
+  margin-top: -13%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+form small {
+  color: white;
+
+}
+
+small a {
+  text-decoration: none;
+  color: rgb(197, 216, 24);
+}
+
+.modal-body {
+  top: 44px;
+  /* only on login page */
+}
+
+
+
+@media only screen and (max-width: 540px) {
+  .whole_contents_col {
+    background-color: rgba(245, 245, 220, 0.001);
+    border-radius: 0%;
   }
-  .form_icon .title{
-    font-family: "Oxygen";
-    text-shadow: 0 0 20px rgba(0,0,0,0.2);
-    color:antiquewhite;
-    font-weight: bold;
+
+  .form_icon {
+    color: white;
+  }
+
+  .form_icon .title {
+    text-shadow: 0 0 20px rgb(14 2 2 / 96%);
+    color: #e9e4dd;
+    font-weight: 900;
+    font-size: x-large;
+  }
+
+  .back_body {
+
+
+    background-image: url("../images/login_bg3.jpg");
+    /* Full height */
   }
 
 
-  form{
-    margin-top: -13%;
-    padding-top: 2%;
-    padding-bottom: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
-    
-  }
-
-  form small{
-    color:white;
-    
-  }
-  small a{
-    text-decoration: none;
-    color: rgb(197, 216, 24);
-  }
-  
-  .modal-body {
-    top:44px; /* only on login page */
-  }
-
-
-
-  @media only screen and (max-width: 540px) {
-    .whole_contents_col{
-      background-color:rgba(245, 245, 220, 0.001);
-      border-radius: 0%;
-    }
-    .form_icon{
-      color: white;
-    }
-    .form_icon .title{
-      text-shadow: 0 0 20px rgb(14 2 2 / 96%);
-      color: #e9e4dd;
-      font-weight: 900;
-      font-size: x-large;
-    }
-    .back_body{
-        
-        
-      background-image: url("../images/login_bg3.jpg");
-      /* Full height */
-    }
-
-  
-  }
+}

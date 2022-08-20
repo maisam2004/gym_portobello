@@ -32,11 +32,7 @@ body.modal-open {
   background-image: url(../images/Admirals-Cove_fitness-center-2000x12002.jpg);
 }
 
-@media only screen and (max-width: 386px) {
-  .image_banner{
-    background-image: url(../images/gym_cover_mobile_background.jpg);
-  }
-  }
+
 
 
   /*>>>>>>>>>>>>> scrolbar <<<<<<<<<<<< */
@@ -181,10 +177,6 @@ a.nav-link.d-none.d-lg-block:hover{
  
 }
 
-@media only screen and (max-width: 560px) {
-  .bg_half_row{
-  }
-  }
 
 
 
@@ -546,19 +538,6 @@ select option {
 .col-third:last-of-type {
   padding-right: 0;
 }
-@media only screen and (max-width: 540px) {
-  .col-half {
-    width: 100%;
-    padding-right: 0;
-  }
-  .some_info li {
-    
-    font-size: large;
-  }
-
-  
-}
-
 
 
 /*new footer style */
@@ -661,8 +640,29 @@ padding-left: 12%;
 }
 
 
+@media only screen and (max-width: 386px) {
+  .image_banner{
+    background-image: url(../images/gym_cover_mobile_background.jpg);
+  }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .col-half {
+      width: 100%;
+      padding-right: 0;
+    }
+    .some_info li {
+      
+      font-size: large;
+    }
+  
+    
+  }
+
 
 @media only screen and (max-width: 480px) {
+
+
   .links_us li{
  
     padding-top: 8%;
